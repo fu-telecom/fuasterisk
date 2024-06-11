@@ -23,7 +23,9 @@ RUN apt-get update && apt-get install -y \
     lua5.3 \
     libedit-dev \
     libssl-dev \
-    wget
+    wget \
+    libmyodbc \
+    odbc-mysql
 
 # Create asterisk group and user
 RUN groupadd asterisk && \
