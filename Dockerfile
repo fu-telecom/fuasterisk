@@ -68,6 +68,14 @@ RUN cd /usr/src/asterisk && \
     make install && \
     make install-headers
 
+# Ensure /var/lib/asterisk exists and has the correct permissions
+RUN mkdir -p /var/lib/asterisk && \
+    chown -R asterisk:asterisk /var/lib/asterisk
+
+# Ensure Asterisk database file exists and has the correct permissions
+RUN touch /var/lib/asterisk/astdb.sqlite3 && \
+    chown asterisk:asterisk /var/lib/asterisk/astdb.sqlite3
+
 # Clone, build, and install chan_sccp
 RUN git clone https://github.com/chan-sccp/chan-sccp.git /usr/src/chan-sccp && \
     cd /usr/src/chan-sccp && \
