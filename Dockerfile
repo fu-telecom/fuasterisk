@@ -23,12 +23,16 @@ RUN apt-get update && apt-get install -y \
     lua5.3 \
     libedit-dev \
     libssl-dev \
-    wget \
-    && wget https://dev.mysql.com/get/Downloads/Connector-ODBC/8.4/mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb \
-    && dpkg -i mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb \
-    && rm mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+    wget
+
+# Download and install MySQL ODBC connector with dependencies
+RUN wget https://dev.mysql.com/get/Downloads/Connector-ODBC/8.4/mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb && \
+    wget https://dev.mysql.com/get/Downloads/Connector-ODBC/8.4/mysql-connector-odbc-setup_8.4.0-1ubuntu24.04_amd64.deb && \
+    wget https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-community-client-plugins_8.0.26-1ubuntu20.04_amd64.deb && \
+    dpkg -i mysql-community-client-plugins_8.0.26-1ubuntu20.04_amd64.deb && \
+    dpkg -i mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb && \
+    dpkg -i mysql-connector-odbc-setup_8.4.0-1ubuntu24.04_amd64.deb && \
+    rm mysql-community-client-plugins_8.0.26-1ubuntu20.04_amd64.deb mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb mysql-connector-odbc-setup_8.4.0-1ubuntu24.04_amd64.deb
 
 # Create asterisk group and user
 RUN groupadd asterisk && \
