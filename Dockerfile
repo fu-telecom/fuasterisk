@@ -24,8 +24,11 @@ RUN apt-get update && apt-get install -y \
     libedit-dev \
     libssl-dev \
     wget \
-    libmyodbc \
-    odbc-mysql
+    && wget https://dev.mysql.com/get/Downloads/Connector-ODBC/8.4/mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb \
+    && dpkg -i mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb \
+    && rm mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 # Create asterisk group and user
 RUN groupadd asterisk && \
