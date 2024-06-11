@@ -1,0 +1,740 @@
+<?xml version="1.0"?>
+<xml>
+  <FullLog>&lt;h2&gt;Processing All Phones to Asterisk&lt;/h2&gt;&lt;br&gt;Modifying 47 phones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Processing the phone list.&lt;/b&gt;&lt;br&gt;ProcessPhoneList: SEP5067AEE17403&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP5067AEE17403&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP5067AEE17403&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP5067AEE17403&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2655328 COLLECTIONS&lt;br&gt;Check if LineAlreadyExists: 2655328 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2655328&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2655328&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2655328&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP5067AEE17403"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 2&lt;br&gt;phone_serial: SEP5067AEE17403&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEPD0574CF79C7A&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEPD0574CF79C7A&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF79C7A&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEPD0574CF79C7A&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 4383858 FUT SALES&lt;br&gt;Check if LineAlreadyExists: 4383858 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 4383858&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 4383858&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 4383858&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEPD0574CF79C7A"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 3&lt;br&gt;phone_serial: SEPD0574CF79C7A&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP002414B37A3F&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP002414B37A3F&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP002414B37A3F&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP002414B37A3F&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 3825968 Cust Disservice&lt;br&gt;Check if LineAlreadyExists: 3825968 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 3825968&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 3825968&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 3825968&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP002414B37A3F"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 5&lt;br&gt;phone_serial: SEP002414B37A3F&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEPD0574CF794A2&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEPD0574CF794A2&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF794A2&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEPD0574CF794A2&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 0 OPERATOR&lt;br&gt;Check if LineAlreadyExists: 0 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 0&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 0&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 0&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEPD0574CF794A2"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 6&lt;br&gt;phone_serial: SEPD0574CF794A2&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEPD0574CF79C98&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEPD0574CF79C98&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF79C98&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEPD0574CF79C98&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 999 RANGER HQ&lt;br&gt;Check if LineAlreadyExists: 999 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 999&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 999&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 999&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEPD0574CF79C98"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 35&lt;br&gt;phone_serial: SEPD0574CF79C98&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000B822AD51B&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000B822AD51B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B822AD51B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B822AD51B&lt;br&gt;Adding number to asterisk: 3807 - West Payphone&lt;br&gt;AddToVoicemail() for 3807&lt;br&gt;Clearing Phone Flags: 000B822AD51B&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 41&lt;br&gt;phone_serial: 000B822AD51B&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000B822AD51C&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000B822AD51C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B822AD51C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B822AD51C&lt;br&gt;Adding number to asterisk: 3802 - East Payphone&lt;br&gt;AddToVoicemail() for 3802&lt;br&gt;Clearing Phone Flags: 000B822AD51C&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 45&lt;br&gt;phone_serial: 000B822AD51C&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000B821883E6&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000B821883E6&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B821883E6&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B821883E6&lt;br&gt;Adding number to asterisk: 3801 - Effigy Payphone&lt;br&gt;AddToVoicemail() for 3801&lt;br&gt;Clearing Phone Flags: 000B821883E6&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 47&lt;br&gt;phone_serial: 000B821883E6&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000B8237B10E&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000B8237B10E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B8237B10E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B8237B10E&lt;br&gt;Adding number to asterisk: 3806 - X Roads Payphone&lt;br&gt;AddToVoicemail() for 3806&lt;br&gt;Clearing Phone Flags: 000B8237B10E&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 48&lt;br&gt;phone_serial: 000B8237B10E&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: &lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): &lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: &lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: &lt;br&gt;Adding number to asterisk: 7201 - East Pager&lt;br&gt;AddToVoicemail() for 7201&lt;br&gt;Clearing Phone Flags: &lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 56&lt;br&gt;phone_serial: &lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: PA6&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): PA6&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: PA6&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: PA6&lt;br&gt;Adding number to asterisk: 7202 - XRoadsPager&lt;br&gt;AddToVoicemail() for 7202&lt;br&gt;Clearing Phone Flags: PA6&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 61&lt;br&gt;phone_serial: PA6&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: PA12&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): PA12&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: PA12&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: PA12&lt;br&gt;Adding number to asterisk: 7203 - West Pager&lt;br&gt;AddToVoicemail() for 7203&lt;br&gt;Clearing Phone Flags: PA12&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 62&lt;br&gt;phone_serial: PA12&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: zonk&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): zonk&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: zonk&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: zonk&lt;br&gt;Adding number to asterisk: 9665 - zonk&lt;br&gt;AddToVoicemail() for 9665&lt;br&gt;Clearing Phone Flags: zonk&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 63&lt;br&gt;phone_serial: zonk&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP00156286A007&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP00156286A007&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP00156286A007&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP00156286A007&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2337 Beer and Darts&lt;br&gt;Check if LineAlreadyExists: 2337 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2337&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2337&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2337&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP00156286A007"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 64&lt;br&gt;phone_serial: SEP00156286A007&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP00156286AA23&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP00156286AA23&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP00156286AA23&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP00156286AA23&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 5683 FaceLazers&lt;br&gt;Check if LineAlreadyExists: 5683 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 5683&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 5683&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 5683&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP00156286AA23"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 65&lt;br&gt;phone_serial: SEP00156286AA23&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015F915297A&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015F915297A&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F915297A&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F915297A&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7722672267 Camp Camp&lt;br&gt;Check if LineAlreadyExists: 7722672267 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7722672267&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7722672267&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7722672267&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F915297A"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 67&lt;br&gt;phone_serial: SEP0015F915297A&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE1D8&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE1D8&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE1D8&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE1D8&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 786 Tinder&lt;br&gt;Check if LineAlreadyExists: 786 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 786&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 786&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 786&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE1D8"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 68&lt;br&gt;phone_serial: SEP0011BB0DE1D8&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015F914028C&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015F914028C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F914028C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F914028C&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2835 CUDL&lt;br&gt;Check if LineAlreadyExists: 2835 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2835&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2835&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2835&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F914028C"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 70&lt;br&gt;phone_serial: SEP0015F914028C&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0016474B01A9&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0016474B01A9&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0016474B01A9&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0016474B01A9&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 8433 The Dhaba&lt;br&gt;Check if LineAlreadyExists: 8433 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 8433&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 8433&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 8433&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0016474B01A9"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 71&lt;br&gt;phone_serial: SEP0016474B01A9&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE10B&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE10B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE10B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE10B&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 3663 WallysCorndogs&lt;br&gt;Check if LineAlreadyExists: 3663 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 3663&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 3663&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 3663&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE10B"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 72&lt;br&gt;phone_serial: SEP0011BB0DE10B&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP001646806BB8&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP001646806BB8&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP001646806BB8&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP001646806BB8&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 55526567 In Burning Color&lt;br&gt;Check if LineAlreadyExists: 55526567 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 55526567&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 55526567&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 55526567&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP001646806BB8"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 73&lt;br&gt;phone_serial: SEP001646806BB8&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015626A4FCF&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015626A4FCF&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A4FCF&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A4FCF&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 929 Yayborhood&lt;br&gt;Check if LineAlreadyExists: 929 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 929&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 929&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 929&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A4FCF"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 74&lt;br&gt;phone_serial: SEP0015626A4FCF&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015629F897C&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015629F897C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015629F897C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015629F897C&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 208 So Sassy&lt;br&gt;Check if LineAlreadyExists: 208 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 208&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 208&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 208&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015629F897C"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 75&lt;br&gt;phone_serial: SEP0015629F897C&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015626A51FD&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015626A51FD&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A51FD&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A51FD&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7746 Spin Camp&lt;br&gt;Check if LineAlreadyExists: 7746 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7746&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7746&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7746&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A51FD"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 76&lt;br&gt;phone_serial: SEP0015626A51FD&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015F914025B&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015F914025B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F914025B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F914025B&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 52669 Jammie Camp&lt;br&gt;Check if LineAlreadyExists: 52669 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 52669&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 52669&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 52669&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F914025B"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 77&lt;br&gt;phone_serial: SEP0015F914025B&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015626A569D&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015626A569D&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A569D&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A569D&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 323 Dad Camp&lt;br&gt;Check if LineAlreadyExists: 323 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 323&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 323&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 323&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A569D"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 78&lt;br&gt;phone_serial: SEP0015626A569D&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0013C4D1790C&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0013C4D1790C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0013C4D1790C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0013C4D1790C&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 756847 Sultry Sloth&lt;br&gt;Check if LineAlreadyExists: 756847 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 756847&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 756847&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 756847&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0013C4D1790C"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 80&lt;br&gt;phone_serial: SEP0013C4D1790C&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP00131AE5C78F&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP00131AE5C78F&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP00131AE5C78F&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP00131AE5C78F&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 736782 Sensation Station&lt;br&gt;Check if LineAlreadyExists: 736782 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 736782&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 736782&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 736782&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP00131AE5C78F"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 81&lt;br&gt;phone_serial: SEP00131AE5C78F&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE191&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE191&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE191&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE191&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 938 Circle of Water&lt;br&gt;Check if LineAlreadyExists: 938 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 938&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 938&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 938&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE191"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 82&lt;br&gt;phone_serial: SEP0011BB0DE191&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP001562869F9E&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP001562869F9E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP001562869F9E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP001562869F9E&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 227224 Casbah&lt;br&gt;Check if LineAlreadyExists: 227224 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 227224&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 227224&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 227224&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP001562869F9E"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 83&lt;br&gt;phone_serial: SEP001562869F9E&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015626A5531&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015626A5531&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A5531&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A5531&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 52822 Lava Lounge2&lt;br&gt;Check if LineAlreadyExists: 52822 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 52822&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 52822&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 52822&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A5531"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 85&lt;br&gt;phone_serial: SEP0015626A5531&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE246&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE246&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE246&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE246&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 6277243 Liminal&lt;br&gt;Check if LineAlreadyExists: 6277243 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 6277243&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 6277243&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 6277243&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE246"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 87&lt;br&gt;phone_serial: SEP0011BB0DE246&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0014F2FAFD04&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0014F2FAFD04&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0014F2FAFD04&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0014F2FAFD04&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2836 ChillTheFuckOut&lt;br&gt;Check if LineAlreadyExists: 2836 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2836&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2836&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2836&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0014F2FAFD04"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 89&lt;br&gt;phone_serial: SEP0014F2FAFD04&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0013C4E08A2B&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0013C4E08A2B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0013C4E08A2B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0013C4E08A2B&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 423 ICE&lt;br&gt;Check if LineAlreadyExists: 423 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 423&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 423&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 423&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0013C4E08A2B"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 90&lt;br&gt;phone_serial: SEP0013C4E08A2B&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP000DED47DA11&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP000DED47DA11&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP000DED47DA11&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP000DED47DA11&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 69420 Bad Bitch&lt;br&gt;Check if LineAlreadyExists: 69420 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 69420&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 69420&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 69420&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP000DED47DA11"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 91&lt;br&gt;phone_serial: SEP000DED47DA11&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DDB53&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DDB53&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DDB53&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DDB53&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 18006473487 Misfits&lt;br&gt;Check if LineAlreadyExists: 18006473487 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 18006473487&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 18006473487&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 18006473487&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DDB53"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 92&lt;br&gt;phone_serial: SEP0011BB0DDB53&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE1DE&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE1DE&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE1DE&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE1DE&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 18003282868 Tiki Tiki&lt;br&gt;Check if LineAlreadyExists: 18003282868 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 18003282868&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 18003282868&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 18003282868&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE1DE"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 93&lt;br&gt;phone_serial: SEP0011BB0DE1DE&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0015F9B3928E&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0015F9B3928E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F9B3928E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F9B3928E&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 267642 CosmicCreatures&lt;br&gt;Check if LineAlreadyExists: 267642 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 267642&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 267642&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 267642&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F9B3928E"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 94&lt;br&gt;phone_serial: SEP0015F9B3928E&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DDB83&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DDB83&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DDB83&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DDB83&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7976 P Hash House&lt;br&gt;Check if LineAlreadyExists: 7976 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7976&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7976&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7976&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DDB83"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 95&lt;br&gt;phone_serial: SEP0011BB0DDB83&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE46E&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE46E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE46E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE46E&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 18002254827 VAS&lt;br&gt;Check if LineAlreadyExists: 18002254827 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 18002254827&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 18002254827&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 18002254827&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE46E"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 96&lt;br&gt;phone_serial: SEP0011BB0DE46E&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000F9F1899A6&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000F9F1899A6&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F1899A6&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F1899A6&lt;br&gt;Adding number to asterisk: 2267465 - CamPINK&lt;br&gt;AddToVoicemail() for 2267465&lt;br&gt;Clearing Phone Flags: 000F9F1899A6&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 98&lt;br&gt;phone_serial: 000F9F1899A6&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: SEP0016C8C3CE4A&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0016C8C3CE4A&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0016C8C3CE4A&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0016C8C3CE4A&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7826763 Stamp Camp&lt;br&gt;Check if LineAlreadyExists: 7826763 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7826763&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7826763&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7826763&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0016C8C3CE4A"&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 100&lt;br&gt;phone_serial: SEP0016C8C3CE4A&lt;br&gt;action: add&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000F9F174286&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000F9F174286&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F174286&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F174286&lt;br&gt;Adding number to asterisk: 3425 - R BurnhardAss&lt;br&gt;AddToVoicemail() for 3425&lt;br&gt;Clearing Phone Flags: 000F9F174286&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 102&lt;br&gt;phone_serial: 000F9F174286&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000F9F4618DC&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000F9F4618DC&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F4618DC&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F4618DC&lt;br&gt;Adding number to asterisk: 1005 - KFLIP&lt;br&gt;AddToVoicemail() for 1005&lt;br&gt;Clearing Phone Flags: 000F9F4618DC&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 103&lt;br&gt;phone_serial: 000F9F4618DC&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: 000F9F18ABFA&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000F9F18ABFA&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F18ABFA&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F18ABFA&lt;br&gt;Adding number to asterisk: 52822 - Lava Lounge2&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-52822-1' for key 'context'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(123): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(78): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(212): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(71): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(159): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(87): SipProcessor-&gt;AddToExtensions(Object(Number))
+#6 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(50): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#7 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(31): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(117): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 2, Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#10 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#11 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#12 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: 000F9F18ABFA&lt;br&gt;Deleting data from asterisk for number: 52822 - Lava Lounge2. Sippeer id: 472&lt;br&gt;Removing SIP phone by name.000F9F18ABFA&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 106&lt;br&gt;phone_serial: 000F9F18ABFA&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: asdf&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): asdf&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: asdf&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: asdf&lt;br&gt;Adding number to asterisk: 9455 - Will Swallow&lt;br&gt;AddToVoicemail() for 9455&lt;br&gt;Clearing Phone Flags: asdf&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 107&lt;br&gt;phone_serial: asdf&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;ProcessPhoneList: test&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): test&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: test&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: test&lt;br&gt;Adding number to asterisk: 236 - FUT CEO&lt;br&gt;AddToVoicemail() for 236&lt;br&gt;Clearing Phone Flags: test&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 108&lt;br&gt;phone_serial: test&lt;br&gt;action: add&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For PhoneProcessorResult&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;totalModified: 47&lt;br&gt;errorCount: 1&lt;br&gt;addedCount: 47&lt;br&gt;editedCount: 0&lt;br&gt;deletedCount: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Cleaning up deleted items.&lt;br&gt;Cleaning up deleted assignments.&lt;br&gt;Cleaning up deleted phones.&lt;br&gt;Removing unassigned numbers.&lt;br&gt;&lt;b&gt;Result For Directories&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: Bad Bitch - 69420&lt;br&gt;Adding Number: Beer and Darts - 2337&lt;br&gt;Adding Number: Camp Camp - 7722672267&lt;br&gt;Adding Number: CamPINK - 2267465&lt;br&gt;Adding Number: Casbah - 227224&lt;br&gt;Adding Number: ChillTheFuckOut - 2836&lt;br&gt;Adding Number: Circle of Water - 938&lt;br&gt;Adding Number: CosmicCreatures - 267642&lt;br&gt;Adding Number: CUDL - 2835&lt;br&gt;Adding Number: Dad Camp - 323&lt;br&gt;Adding Number: FaceLazers - 5683&lt;br&gt;Adding Number: In Burning Color - 55526567&lt;br&gt;Adding Number: Jammie Camp - 52669&lt;br&gt;Adding Number: KFLIP - 1005&lt;br&gt;Adding Number: Lava Lounge2 - 52822&lt;br&gt;Adding Number: Liminal - 6277243&lt;br&gt;Adding Number: Misfits - 18006473487&lt;br&gt;Adding Number: P Hash House - 7976&lt;br&gt;Adding Number: Sensation Station - 736782&lt;br&gt;Adding Number: So Sassy - 208&lt;br&gt;Adding Number: Spin Camp - 7746&lt;br&gt;Adding Number: Stamp Camp - 7826763&lt;br&gt;Adding Number: Sultry Sloth - 756847&lt;br&gt;Adding Number: The Dhaba - 8433&lt;br&gt;Adding Number: Tiki Tiki - 18003282868&lt;br&gt;Adding Number: Tinder - 786&lt;br&gt;Adding Number: WallysCorndogs - 3663&lt;br&gt;Adding Number: Yayborhood - 929&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: COLLECTIONS - 2655328&lt;br&gt;Adding Number: Cust Disservice - 3825968&lt;br&gt;Adding Number: FUT SALES - 4383858&lt;br&gt;Adding Number: OPERATOR - 0&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: ICE - 423&lt;br&gt;Adding Number: VAS - 18002254827&lt;br&gt;Processing Directory Art : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: R BurnhardAss - 3425&lt;br&gt;Adding Number: Will Swallow - 9455&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: East Payphone - 3802&lt;br&gt;Adding Number: Effigy Payphone - 3801&lt;br&gt;Adding Number: West Payphone - 3807&lt;br&gt;Adding Number: X Roads Payphone - 3806&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: RANGER HQ - 999&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ExtensionsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/2655328
+&lt;br /&gt;Line: SCCP/4383858
+&lt;br /&gt;Line: SCCP/3825968
+&lt;br /&gt;Line: SCCP/0
+&lt;br /&gt;Line: SCCP/3807
+&lt;br /&gt;Line: SCCP/3802
+&lt;br /&gt;Line: SCCP/3801
+&lt;br /&gt;Line: SCCP/3806
+&lt;br /&gt;Line: SCCP/2337
+&lt;br /&gt;Line: SCCP/5683
+&lt;br /&gt;Line: SCCP/7722672267
+&lt;br /&gt;Line: SCCP/786
+&lt;br /&gt;Line: SCCP/2835
+&lt;br /&gt;Line: SCCP/8433
+&lt;br /&gt;Line: SCCP/3663
+&lt;br /&gt;Line: SCCP/55526567
+&lt;br /&gt;Line: SCCP/929
+&lt;br /&gt;Line: SCCP/208
+&lt;br /&gt;Line: SCCP/7746
+&lt;br /&gt;Line: SCCP/52669
+&lt;br /&gt;Line: SCCP/323
+&lt;br /&gt;Line: SCCP/756847
+&lt;br /&gt;Line: SCCP/736782
+&lt;br /&gt;Line: SCCP/938
+&lt;br /&gt;Line: SCCP/227224
+&lt;br /&gt;Line: SCCP/52822
+&lt;br /&gt;Line: SCCP/6277243
+&lt;br /&gt;Line: SCCP/2836
+&lt;br /&gt;Line: SCCP/423
+&lt;br /&gt;Line: SCCP/69420
+&lt;br /&gt;Line: SCCP/18006473487
+&lt;br /&gt;Line: SCCP/18003282868
+&lt;br /&gt;Line: SCCP/267642
+&lt;br /&gt;Line: SCCP/7976
+&lt;br /&gt;Line: SCCP/18002254827
+&lt;br /&gt;Line: SIP/2267465
+&lt;br /&gt;Line: SCCP/7826763
+&lt;br /&gt;Line: SIP/1005
+&lt;br /&gt;Line: SIP/3425
+&lt;br /&gt;Line: SIP/9455
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For HintsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 2655328,hint,SCCP/2655328
+&lt;br /&gt;Line: exten =&gt; 4383858,hint,SCCP/4383858
+&lt;br /&gt;Line: exten =&gt; 3825968,hint,SCCP/3825968
+&lt;br /&gt;Line: exten =&gt; 0,hint,SCCP/0
+&lt;br /&gt;Line: exten =&gt; 999,hint,SCCP/999
+&lt;br /&gt;Line: exten =&gt; 3807,hint,SCCP/3807
+&lt;br /&gt;Line: exten =&gt; 3802,hint,SCCP/3802
+&lt;br /&gt;Line: exten =&gt; 3801,hint,SCCP/3801
+&lt;br /&gt;Line: exten =&gt; 3806,hint,SCCP/3806
+&lt;br /&gt;Line: exten =&gt; 7201,hint,SIP/PA36
+&lt;br /&gt;Line: exten =&gt; 7202,hint,SIP/PA6
+&lt;br /&gt;Line: exten =&gt; 7203,hint,SIP/PA12
+&lt;br /&gt;Line: exten =&gt; 9665,hint,SIP/zonk
+&lt;br /&gt;Line: exten =&gt; 2337,hint,SCCP/2337
+&lt;br /&gt;Line: exten =&gt; 5683,hint,SCCP/5683
+&lt;br /&gt;Line: exten =&gt; 7722672267,hint,SCCP/7722672267
+&lt;br /&gt;Line: exten =&gt; 786,hint,SCCP/786
+&lt;br /&gt;Line: exten =&gt; 2835,hint,SCCP/2835
+&lt;br /&gt;Line: exten =&gt; 8433,hint,SCCP/8433
+&lt;br /&gt;Line: exten =&gt; 3663,hint,SCCP/3663
+&lt;br /&gt;Line: exten =&gt; 55526567,hint,SCCP/55526567
+&lt;br /&gt;Line: exten =&gt; 929,hint,SCCP/929
+&lt;br /&gt;Line: exten =&gt; 208,hint,SCCP/208
+&lt;br /&gt;Line: exten =&gt; 7746,hint,SCCP/7746
+&lt;br /&gt;Line: exten =&gt; 52669,hint,SCCP/52669
+&lt;br /&gt;Line: exten =&gt; 323,hint,SCCP/323
+&lt;br /&gt;Line: exten =&gt; 756847,hint,SCCP/756847
+&lt;br /&gt;Line: exten =&gt; 736782,hint,SCCP/736782
+&lt;br /&gt;Line: exten =&gt; 938,hint,SCCP/938
+&lt;br /&gt;Line: exten =&gt; 227224,hint,SCCP/227224
+&lt;br /&gt;Line: exten =&gt; 52822,hint,SCCP/52822
+&lt;br /&gt;Line: exten =&gt; 6277243,hint,SCCP/6277243
+&lt;br /&gt;Line: exten =&gt; 2836,hint,SCCP/2836
+&lt;br /&gt;Line: exten =&gt; 423,hint,SCCP/423
+&lt;br /&gt;Line: exten =&gt; 69420,hint,SCCP/69420
+&lt;br /&gt;Line: exten =&gt; 18006473487,hint,SCCP/18006473487
+&lt;br /&gt;Line: exten =&gt; 18003282868,hint,SCCP/18003282868
+&lt;br /&gt;Line: exten =&gt; 267642,hint,SCCP/267642
+&lt;br /&gt;Line: exten =&gt; 7976,hint,SCCP/7976
+&lt;br /&gt;Line: exten =&gt; 18002254827,hint,SCCP/18002254827
+&lt;br /&gt;Line: exten =&gt; 2267465,hint,SIP/899a6
+&lt;br /&gt;Line: exten =&gt; 7826763,hint,SCCP/7826763
+&lt;br /&gt;Line: exten =&gt; 1005,hint,SIP/618dc
+&lt;br /&gt;Line: exten =&gt; 3425,hint,SIP/74286
+&lt;br /&gt;Line: exten =&gt; 9455,hint,SIP/will
+&lt;br /&gt;Line: exten =&gt; 236,hint,SIP/test
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ButtonsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+&lt;br /&gt;Line: button - speeddial, RANDOM, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, FUT SALES, 4383858, 4383858@hints
+&lt;br /&gt;Line: button - speeddial, Cust Disservice, 3825968, 3825968@hints
+&lt;br /&gt;Line: button - speeddial, OPERATOR, 0, 0@hints
+&lt;br /&gt;Line: button - speeddial, RANGER HQ, 999, 999@hints
+&lt;br /&gt;Line: button - speeddial, West Payphone, 3807, 3807@hints
+&lt;br /&gt;Line: button - speeddial, East Payphone, 3802, 3802@hints
+&lt;br /&gt;Line: button - speeddial, Effigy Payphone, 3801, 3801@hints
+&lt;br /&gt;Line: button - speeddial, X Roads Payphone, 3806, 3806@hints
+&lt;br /&gt;Line: button - speeddial, East Pager, 7201, 7201@hints
+&lt;br /&gt;Line: button - speeddial, XRoadsPager, 7202, 7202@hints
+&lt;br /&gt;Line: button - speeddial, West Pager, 7203, 7203@hints
+&lt;br /&gt;Line: button - speeddial, zonk, 9665, 9665@hints
+&lt;br /&gt;Line: button - speeddial, Beer and Darts, 2337, 2337@hints
+&lt;br /&gt;Line: button - speeddial, FaceLazers, 5683, 5683@hints
+&lt;br /&gt;Line: button - speeddial, Camp Camp, 7722672267, 7722672267@hints
+&lt;br /&gt;Line: button - speeddial, Tinder, 786, 786@hints
+&lt;br /&gt;Line: button - speeddial, CUDL, 2835, 2835@hints
+&lt;br /&gt;Line: button - speeddial, The Dhaba, 8433, 8433@hints
+&lt;br /&gt;Line: button - speeddial, WallysCorndogs, 3663, 3663@hints
+&lt;br /&gt;Line: button - speeddial, In Burning Color, 55526567, 55526567@hints
+&lt;br /&gt;Line: button - speeddial, Yayborhood, 929, 929@hints
+&lt;br /&gt;Line: button - speeddial, So Sassy, 208, 208@hints
+&lt;br /&gt;Line: button - speeddial, Spin Camp, 7746, 7746@hints
+&lt;br /&gt;Line: button - speeddial, Jammie Camp, 52669, 52669@hints
+&lt;br /&gt;Line: button - speeddial, Dad Camp, 323, 323@hints
+&lt;br /&gt;Line: button - speeddial, Sultry Sloth, 756847, 756847@hints
+&lt;br /&gt;Line: button - speeddial, Sensation Station, 736782, 736782@hints
+&lt;br /&gt;Line: button - speeddial, Circle of Water, 938, 938@hints
+&lt;br /&gt;Line: button - speeddial, Casbah, 227224, 227224@hints
+&lt;br /&gt;Line: button - speeddial, Lava Lounge2, 52822, 52822@hints
+&lt;br /&gt;Line: button - speeddial, Liminal, 6277243, 6277243@hints
+&lt;br /&gt;Line: button - speeddial, ChillTheFuckOut, 2836, 2836@hints
+&lt;br /&gt;Line: button - speeddial, ICE, 423, 423@hints
+&lt;br /&gt;Line: button - speeddial, Bad Bitch, 69420, 69420@hints
+&lt;br /&gt;Line: button - speeddial, Misfits, 18006473487, 18006473487@hints
+&lt;br /&gt;Line: button - speeddial, Tiki Tiki, 18003282868, 18003282868@hints
+&lt;br /&gt;Line: button - speeddial, CosmicCreatures, 267642, 267642@hints
+&lt;br /&gt;Line: button - speeddial, P Hash House, 7976, 7976@hints
+&lt;br /&gt;Line: button - speeddial, VAS, 18002254827, 18002254827@hints
+&lt;br /&gt;Line: button - speeddial, CamPINK, 2267465, 2267465@hints
+&lt;br /&gt;Line: button - speeddial, Stamp Camp, 7826763, 7826763@hints
+&lt;br /&gt;Line: button - speeddial, KFLIP, 1005, 1005@hints
+&lt;br /&gt;Line: button - speeddial, R BurnhardAss, 3425, 3425@hints
+&lt;br /&gt;Line: button - speeddial, Will Swallow, 9455, 9455@hints
+&lt;br /&gt;Line: button - speeddial, FUT CEO, 236, 236@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</FullLog>
+  <TimeStamp>2024-01-30_0755pm</TimeStamp>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP5067AEE17403&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP5067AEE17403&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP5067AEE17403&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2655328 COLLECTIONS&lt;br&gt;Check if LineAlreadyExists: 2655328 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2655328&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2655328&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2655328&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP5067AEE17403"&lt;br&gt;</log>
+    <phone_id>2</phone_id>
+    <phone_serial>SEP5067AEE17403</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEPD0574CF79C7A&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF79C7A&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEPD0574CF79C7A&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 4383858 FUT SALES&lt;br&gt;Check if LineAlreadyExists: 4383858 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 4383858&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 4383858&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 4383858&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEPD0574CF79C7A"&lt;br&gt;</log>
+    <phone_id>3</phone_id>
+    <phone_serial>SEPD0574CF79C7A</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP002414B37A3F&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP002414B37A3F&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP002414B37A3F&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 3825968 Cust Disservice&lt;br&gt;Check if LineAlreadyExists: 3825968 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 3825968&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 3825968&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 3825968&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP002414B37A3F"&lt;br&gt;</log>
+    <phone_id>5</phone_id>
+    <phone_serial>SEP002414B37A3F</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEPD0574CF794A2&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF794A2&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEPD0574CF794A2&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 0 OPERATOR&lt;br&gt;Check if LineAlreadyExists: 0 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 0&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 0&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 0&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEPD0574CF794A2"&lt;br&gt;</log>
+    <phone_id>6</phone_id>
+    <phone_serial>SEPD0574CF794A2</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEPD0574CF79C98&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF79C98&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEPD0574CF79C98&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 999 RANGER HQ&lt;br&gt;Check if LineAlreadyExists: 999 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 999&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 999&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 999&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;FillEmpty()&lt;br&gt;Fill Unused Number Slots on Phone.&lt;br&gt;AddEmptyButtons(Phone, 6, 3)&lt;br&gt;Adding number to page 0 for button array at 0&lt;br&gt;Adding number to page 0 for button array at 1&lt;br&gt;Adding number to page 0 for button array at 2&lt;br&gt;Adding number to page 0 for button array at 3&lt;br&gt;Adding number to page 0 for button array at 4&lt;br&gt;Adding number to page 0 for button array at 5&lt;br&gt;Adding number to page 0 for button array at 6&lt;br&gt;Adding number to page 0 for button array at 7&lt;br&gt;Adding number to page 0 for button array at 8&lt;br&gt;Adding number to page 0 for button array at 9&lt;br&gt;Adding number to page 0 for button array at 10&lt;br&gt;Adding number to page 0 for button array at 11&lt;br&gt;Adding number to page 1 for button array at 24&lt;br&gt;Adding number to page 1 for button array at 25&lt;br&gt;Adding number to page 1 for button array at 26&lt;br&gt;Adding number to page 1 for button array at 27&lt;br&gt;Adding number to page 1 for button array at 28&lt;br&gt;Adding number to page 1 for button array at 29&lt;br&gt;Adding number to page 1 for button array at 30&lt;br&gt;Adding number to page 1 for button array at 31&lt;br&gt;Adding number to page 1 for button array at 32&lt;br&gt;Adding number to page 1 for button array at 33&lt;br&gt;Adding number to page 1 for button array at 34&lt;br&gt;Adding number to page 1 for button array at 35&lt;br&gt;Adding number to page 2 for button array at 12&lt;br&gt;Adding number to page 2 for button array at 13&lt;br&gt;Adding number to page 2 for button array at 14&lt;br&gt;Adding number to page 2 for button array at 15&lt;br&gt;Adding number to page 2 for button array at 16&lt;br&gt;Adding number to page 2 for button array at 17&lt;br&gt;Adding number to page 2 for button array at 18&lt;br&gt;Adding number to page 2 for button array at 19&lt;br&gt;Adding number to page 2 for button array at 20&lt;br&gt;Adding number to page 2 for button array at 21&lt;br&gt;Adding number to page 2 for button array at 22&lt;br&gt;Adding number to page 2 for button array at 23&lt;br&gt;Adding number to page 3 for button array at 36&lt;br&gt;Adding number to page 3 for button array at 37&lt;br&gt;Adding number to page 3 for button array at 38&lt;br&gt;Adding number to page 3 for button array at 39&lt;br&gt;Adding number to page 3 for button array at 40&lt;br&gt;Adding number to page 3 for button array at 41&lt;br&gt;Adding number to page 3 for button array at 42&lt;br&gt;Adding number to page 3 for button array at 43&lt;br&gt;Adding number to page 3 for button array at 44&lt;br&gt;Adding number to page 3 for button array at 45&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEPD0574CF79C98"&lt;br&gt;</log>
+    <phone_id>35</phone_id>
+    <phone_serial>SEPD0574CF79C98</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000B822AD51B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B822AD51B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B822AD51B&lt;br&gt;Adding number to asterisk: 3807 - West Payphone&lt;br&gt;AddToVoicemail() for 3807&lt;br&gt;Clearing Phone Flags: 000B822AD51B&lt;br&gt;</log>
+    <phone_id>41</phone_id>
+    <phone_serial>000B822AD51B</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000B822AD51C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B822AD51C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B822AD51C&lt;br&gt;Adding number to asterisk: 3802 - East Payphone&lt;br&gt;AddToVoicemail() for 3802&lt;br&gt;Clearing Phone Flags: 000B822AD51C&lt;br&gt;</log>
+    <phone_id>45</phone_id>
+    <phone_serial>000B822AD51C</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000B821883E6&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B821883E6&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B821883E6&lt;br&gt;Adding number to asterisk: 3801 - Effigy Payphone&lt;br&gt;AddToVoicemail() for 3801&lt;br&gt;Clearing Phone Flags: 000B821883E6&lt;br&gt;</log>
+    <phone_id>47</phone_id>
+    <phone_serial>000B821883E6</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000B8237B10E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000B8237B10E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000B8237B10E&lt;br&gt;Adding number to asterisk: 3806 - X Roads Payphone&lt;br&gt;AddToVoicemail() for 3806&lt;br&gt;Clearing Phone Flags: 000B8237B10E&lt;br&gt;</log>
+    <phone_id>48</phone_id>
+    <phone_serial>000B8237B10E</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): &lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: &lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: &lt;br&gt;Adding number to asterisk: 7201 - East Pager&lt;br&gt;AddToVoicemail() for 7201&lt;br&gt;Clearing Phone Flags: &lt;br&gt;</log>
+    <phone_id>56</phone_id>
+    <phone_serial/>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): PA6&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: PA6&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: PA6&lt;br&gt;Adding number to asterisk: 7202 - XRoadsPager&lt;br&gt;AddToVoicemail() for 7202&lt;br&gt;Clearing Phone Flags: PA6&lt;br&gt;</log>
+    <phone_id>61</phone_id>
+    <phone_serial>PA6</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): PA12&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: PA12&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: PA12&lt;br&gt;Adding number to asterisk: 7203 - West Pager&lt;br&gt;AddToVoicemail() for 7203&lt;br&gt;Clearing Phone Flags: PA12&lt;br&gt;</log>
+    <phone_id>62</phone_id>
+    <phone_serial>PA12</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): zonk&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: zonk&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: zonk&lt;br&gt;Adding number to asterisk: 9665 - zonk&lt;br&gt;AddToVoicemail() for 9665&lt;br&gt;Clearing Phone Flags: zonk&lt;br&gt;</log>
+    <phone_id>63</phone_id>
+    <phone_serial>zonk</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP00156286A007&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP00156286A007&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP00156286A007&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2337 Beer and Darts&lt;br&gt;Check if LineAlreadyExists: 2337 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2337&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2337&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2337&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP00156286A007"&lt;br&gt;</log>
+    <phone_id>64</phone_id>
+    <phone_serial>SEP00156286A007</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP00156286AA23&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP00156286AA23&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP00156286AA23&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 5683 FaceLazers&lt;br&gt;Check if LineAlreadyExists: 5683 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 5683&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 5683&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 5683&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP00156286AA23"&lt;br&gt;</log>
+    <phone_id>65</phone_id>
+    <phone_serial>SEP00156286AA23</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015F915297A&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F915297A&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F915297A&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7722672267 Camp Camp&lt;br&gt;Check if LineAlreadyExists: 7722672267 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7722672267&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7722672267&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7722672267&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F915297A"&lt;br&gt;</log>
+    <phone_id>67</phone_id>
+    <phone_serial>SEP0015F915297A</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DE1D8&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE1D8&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE1D8&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 786 Tinder&lt;br&gt;Check if LineAlreadyExists: 786 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 786&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 786&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 786&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE1D8"&lt;br&gt;</log>
+    <phone_id>68</phone_id>
+    <phone_serial>SEP0011BB0DE1D8</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015F914028C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F914028C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F914028C&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2835 CUDL&lt;br&gt;Check if LineAlreadyExists: 2835 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2835&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2835&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2835&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F914028C"&lt;br&gt;</log>
+    <phone_id>70</phone_id>
+    <phone_serial>SEP0015F914028C</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0016474B01A9&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0016474B01A9&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0016474B01A9&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 8433 The Dhaba&lt;br&gt;Check if LineAlreadyExists: 8433 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 8433&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 8433&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 8433&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0016474B01A9"&lt;br&gt;</log>
+    <phone_id>71</phone_id>
+    <phone_serial>SEP0016474B01A9</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DE10B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE10B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE10B&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 3663 WallysCorndogs&lt;br&gt;Check if LineAlreadyExists: 3663 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 3663&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 3663&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 3663&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE10B"&lt;br&gt;</log>
+    <phone_id>72</phone_id>
+    <phone_serial>SEP0011BB0DE10B</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP001646806BB8&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP001646806BB8&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP001646806BB8&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 55526567 In Burning Color&lt;br&gt;Check if LineAlreadyExists: 55526567 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 55526567&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 55526567&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 55526567&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP001646806BB8"&lt;br&gt;</log>
+    <phone_id>73</phone_id>
+    <phone_serial>SEP001646806BB8</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015626A4FCF&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A4FCF&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A4FCF&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 929 Yayborhood&lt;br&gt;Check if LineAlreadyExists: 929 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 929&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 929&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 929&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A4FCF"&lt;br&gt;</log>
+    <phone_id>74</phone_id>
+    <phone_serial>SEP0015626A4FCF</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015629F897C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015629F897C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015629F897C&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 208 So Sassy&lt;br&gt;Check if LineAlreadyExists: 208 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 208&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 208&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 208&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015629F897C"&lt;br&gt;</log>
+    <phone_id>75</phone_id>
+    <phone_serial>SEP0015629F897C</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015626A51FD&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A51FD&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A51FD&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7746 Spin Camp&lt;br&gt;Check if LineAlreadyExists: 7746 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7746&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7746&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7746&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A51FD"&lt;br&gt;</log>
+    <phone_id>76</phone_id>
+    <phone_serial>SEP0015626A51FD</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015F914025B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F914025B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F914025B&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 52669 Jammie Camp&lt;br&gt;Check if LineAlreadyExists: 52669 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 52669&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 52669&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 52669&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F914025B"&lt;br&gt;</log>
+    <phone_id>77</phone_id>
+    <phone_serial>SEP0015F914025B</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015626A569D&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A569D&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A569D&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 323 Dad Camp&lt;br&gt;Check if LineAlreadyExists: 323 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 323&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 323&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 323&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A569D"&lt;br&gt;</log>
+    <phone_id>78</phone_id>
+    <phone_serial>SEP0015626A569D</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0013C4D1790C&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0013C4D1790C&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0013C4D1790C&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 756847 Sultry Sloth&lt;br&gt;Check if LineAlreadyExists: 756847 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 756847&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 756847&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 756847&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0013C4D1790C"&lt;br&gt;</log>
+    <phone_id>80</phone_id>
+    <phone_serial>SEP0013C4D1790C</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP00131AE5C78F&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP00131AE5C78F&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP00131AE5C78F&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 736782 Sensation Station&lt;br&gt;Check if LineAlreadyExists: 736782 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 736782&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 736782&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 736782&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP00131AE5C78F"&lt;br&gt;</log>
+    <phone_id>81</phone_id>
+    <phone_serial>SEP00131AE5C78F</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DE191&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE191&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE191&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 938 Circle of Water&lt;br&gt;Check if LineAlreadyExists: 938 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 938&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 938&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 938&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE191"&lt;br&gt;</log>
+    <phone_id>82</phone_id>
+    <phone_serial>SEP0011BB0DE191</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP001562869F9E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP001562869F9E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP001562869F9E&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 227224 Casbah&lt;br&gt;Check if LineAlreadyExists: 227224 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 227224&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 227224&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 227224&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP001562869F9E"&lt;br&gt;</log>
+    <phone_id>83</phone_id>
+    <phone_serial>SEP001562869F9E</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015626A5531&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015626A5531&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015626A5531&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 52822 Lava Lounge2&lt;br&gt;Check if LineAlreadyExists: 52822 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 52822&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 52822&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 52822&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015626A5531"&lt;br&gt;</log>
+    <phone_id>85</phone_id>
+    <phone_serial>SEP0015626A5531</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DE246&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE246&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE246&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 6277243 Liminal&lt;br&gt;Check if LineAlreadyExists: 6277243 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 6277243&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 6277243&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 6277243&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE246"&lt;br&gt;</log>
+    <phone_id>87</phone_id>
+    <phone_serial>SEP0011BB0DE246</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0014F2FAFD04&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0014F2FAFD04&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0014F2FAFD04&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 2836 ChillTheFuckOut&lt;br&gt;Check if LineAlreadyExists: 2836 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 2836&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 2836&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 2836&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0014F2FAFD04"&lt;br&gt;</log>
+    <phone_id>89</phone_id>
+    <phone_serial>SEP0014F2FAFD04</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0013C4E08A2B&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0013C4E08A2B&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0013C4E08A2B&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 423 ICE&lt;br&gt;Check if LineAlreadyExists: 423 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 423&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 423&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 423&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0013C4E08A2B"&lt;br&gt;</log>
+    <phone_id>90</phone_id>
+    <phone_serial>SEP0013C4E08A2B</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP000DED47DA11&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP000DED47DA11&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP000DED47DA11&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 69420 Bad Bitch&lt;br&gt;Check if LineAlreadyExists: 69420 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 69420&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 69420&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 69420&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP000DED47DA11"&lt;br&gt;</log>
+    <phone_id>91</phone_id>
+    <phone_serial>SEP000DED47DA11</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DDB53&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DDB53&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DDB53&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 18006473487 Misfits&lt;br&gt;Check if LineAlreadyExists: 18006473487 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 18006473487&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 18006473487&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 18006473487&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DDB53"&lt;br&gt;</log>
+    <phone_id>92</phone_id>
+    <phone_serial>SEP0011BB0DDB53</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DE1DE&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE1DE&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE1DE&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 18003282868 Tiki Tiki&lt;br&gt;Check if LineAlreadyExists: 18003282868 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 18003282868&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 18003282868&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 18003282868&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE1DE"&lt;br&gt;</log>
+    <phone_id>93</phone_id>
+    <phone_serial>SEP0011BB0DE1DE</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0015F9B3928E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0015F9B3928E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0015F9B3928E&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 267642 CosmicCreatures&lt;br&gt;Check if LineAlreadyExists: 267642 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 267642&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 267642&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 267642&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0015F9B3928E"&lt;br&gt;</log>
+    <phone_id>94</phone_id>
+    <phone_serial>SEP0015F9B3928E</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DDB83&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DDB83&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DDB83&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7976 P Hash House&lt;br&gt;Check if LineAlreadyExists: 7976 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7976&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7976&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7976&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DDB83"&lt;br&gt;</log>
+    <phone_id>95</phone_id>
+    <phone_serial>SEP0011BB0DDB83</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0011BB0DE46E&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE46E&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE46E&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 18002254827 VAS&lt;br&gt;Check if LineAlreadyExists: 18002254827 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 18002254827&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 18002254827&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 18002254827&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0011BB0DE46E"&lt;br&gt;</log>
+    <phone_id>96</phone_id>
+    <phone_serial>SEP0011BB0DE46E</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000F9F1899A6&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F1899A6&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F1899A6&lt;br&gt;Adding number to asterisk: 2267465 - CamPINK&lt;br&gt;AddToVoicemail() for 2267465&lt;br&gt;Clearing Phone Flags: 000F9F1899A6&lt;br&gt;</log>
+    <phone_id>98</phone_id>
+    <phone_serial>000F9F1899A6</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): SEP0016C8C3CE4A&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0016C8C3CE4A&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0016C8C3CE4A&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 7826763 Stamp Camp&lt;br&gt;Check if LineAlreadyExists: 7826763 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 7826763&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;AddToVoicemail() for 7826763&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 7826763&lt;br&gt;AddButton()&lt;br&gt;Adding Button: 726366&lt;br&gt;&lt;h2&gt;Add Buttons List - 2&lt;/h2&gt;Phone model has no side carriages.&lt;br&gt;Reloading SCCP Phone In Asterisksudo asterisk -x "sccp restart SEP0016C8C3CE4A"&lt;br&gt;</log>
+    <phone_id>100</phone_id>
+    <phone_serial>SEP0016C8C3CE4A</phone_serial>
+    <action>add</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000F9F174286&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F174286&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F174286&lt;br&gt;Adding number to asterisk: 3425 - R BurnhardAss&lt;br&gt;AddToVoicemail() for 3425&lt;br&gt;Clearing Phone Flags: 000F9F174286&lt;br&gt;</log>
+    <phone_id>102</phone_id>
+    <phone_serial>000F9F174286</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): 000F9F4618DC&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F4618DC&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F4618DC&lt;br&gt;Adding number to asterisk: 1005 - KFLIP&lt;br&gt;AddToVoicemail() for 1005&lt;br&gt;Clearing Phone Flags: 000F9F4618DC&lt;br&gt;</log>
+    <phone_id>103</phone_id>
+    <phone_serial>000F9F4618DC</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>1</error>
+    <log>ProcessPhone(): 000F9F18ABFA&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F18ABFA&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: 000F9F18ABFA&lt;br&gt;Adding number to asterisk: 52822 - Lava Lounge2&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-52822-1' for key 'context'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(123): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(78): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(212): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(71): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(159): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(87): SipProcessor-&gt;AddToExtensions(Object(Number))
+#6 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(50): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#7 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(31): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(117): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 2, Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#10 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#11 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#12 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: 000F9F18ABFA&lt;br&gt;Deleting data from asterisk for number: 52822 - Lava Lounge2. Sippeer id: 472&lt;br&gt;Removing SIP phone by name.000F9F18ABFA&lt;br&gt;</log>
+    <phone_id>106</phone_id>
+    <phone_serial>000F9F18ABFA</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): asdf&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: asdf&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: asdf&lt;br&gt;Adding number to asterisk: 9455 - Will Swallow&lt;br&gt;AddToVoicemail() for 9455&lt;br&gt;Clearing Phone Flags: asdf&lt;br&gt;</log>
+    <phone_id>107</phone_id>
+    <phone_serial>asdf</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <Phone>
+    <error>0</error>
+    <log>ProcessPhone(): test&lt;br&gt;Phone requires action: ADD&lt;br&gt;&lt;h2&gt;Processing SIP Phone: test&lt;/h2&gt;&lt;b&gt;Adding Phone&lt;/b&gt;&lt;br&gt;Adding Phone: test&lt;br&gt;Adding number to asterisk: 236 - FUT CEO&lt;br&gt;AddToVoicemail() for 236&lt;br&gt;Clearing Phone Flags: test&lt;br&gt;</log>
+    <phone_id>108</phone_id>
+    <phone_serial>test</phone_serial>
+    <action>add</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <PhoneProcessorResult>
+    <error>1</error>
+    <log/>
+    <totalModified>47</totalModified>
+    <errorCount>1</errorCount>
+    <addedCount>47</addedCount>
+    <editedCount>0</editedCount>
+    <deletedCount>0</deletedCount>
+    <deletedAssignments>0</deletedAssignments>
+    <deletedPhones>0</deletedPhones>
+    <unassignedCount>0</unassignedCount>
+  </PhoneProcessorResult>
+  <Directories>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: Bad Bitch - 69420&lt;br&gt;Adding Number: Beer and Darts - 2337&lt;br&gt;Adding Number: Camp Camp - 7722672267&lt;br&gt;Adding Number: CamPINK - 2267465&lt;br&gt;Adding Number: Casbah - 227224&lt;br&gt;Adding Number: ChillTheFuckOut - 2836&lt;br&gt;Adding Number: Circle of Water - 938&lt;br&gt;Adding Number: CosmicCreatures - 267642&lt;br&gt;Adding Number: CUDL - 2835&lt;br&gt;Adding Number: Dad Camp - 323&lt;br&gt;Adding Number: FaceLazers - 5683&lt;br&gt;Adding Number: In Burning Color - 55526567&lt;br&gt;Adding Number: Jammie Camp - 52669&lt;br&gt;Adding Number: KFLIP - 1005&lt;br&gt;Adding Number: Lava Lounge2 - 52822&lt;br&gt;Adding Number: Liminal - 6277243&lt;br&gt;Adding Number: Misfits - 18006473487&lt;br&gt;Adding Number: P Hash House - 7976&lt;br&gt;Adding Number: Sensation Station - 736782&lt;br&gt;Adding Number: So Sassy - 208&lt;br&gt;Adding Number: Spin Camp - 7746&lt;br&gt;Adding Number: Stamp Camp - 7826763&lt;br&gt;Adding Number: Sultry Sloth - 756847&lt;br&gt;Adding Number: The Dhaba - 8433&lt;br&gt;Adding Number: Tiki Tiki - 18003282868&lt;br&gt;Adding Number: Tinder - 786&lt;br&gt;Adding Number: WallysCorndogs - 3663&lt;br&gt;Adding Number: Yayborhood - 929&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: COLLECTIONS - 2655328&lt;br&gt;Adding Number: Cust Disservice - 3825968&lt;br&gt;Adding Number: FUT SALES - 4383858&lt;br&gt;Adding Number: OPERATOR - 0&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: ICE - 423&lt;br&gt;Adding Number: VAS - 18002254827&lt;br&gt;Processing Directory Art : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: R BurnhardAss - 3425&lt;br&gt;Adding Number: Will Swallow - 9455&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: East Payphone - 3802&lt;br&gt;Adding Number: Effigy Payphone - 3801&lt;br&gt;Adding Number: West Payphone - 3807&lt;br&gt;Adding Number: X Roads Payphone - 3806&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: RANGER HQ - 999&lt;br&gt;</log>
+  </Directories>
+  <ExtensionsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/2655328
+&lt;br /&gt;Line: SCCP/4383858
+&lt;br /&gt;Line: SCCP/3825968
+&lt;br /&gt;Line: SCCP/0
+&lt;br /&gt;Line: SCCP/3807
+&lt;br /&gt;Line: SCCP/3802
+&lt;br /&gt;Line: SCCP/3801
+&lt;br /&gt;Line: SCCP/3806
+&lt;br /&gt;Line: SCCP/2337
+&lt;br /&gt;Line: SCCP/5683
+&lt;br /&gt;Line: SCCP/7722672267
+&lt;br /&gt;Line: SCCP/786
+&lt;br /&gt;Line: SCCP/2835
+&lt;br /&gt;Line: SCCP/8433
+&lt;br /&gt;Line: SCCP/3663
+&lt;br /&gt;Line: SCCP/55526567
+&lt;br /&gt;Line: SCCP/929
+&lt;br /&gt;Line: SCCP/208
+&lt;br /&gt;Line: SCCP/7746
+&lt;br /&gt;Line: SCCP/52669
+&lt;br /&gt;Line: SCCP/323
+&lt;br /&gt;Line: SCCP/756847
+&lt;br /&gt;Line: SCCP/736782
+&lt;br /&gt;Line: SCCP/938
+&lt;br /&gt;Line: SCCP/227224
+&lt;br /&gt;Line: SCCP/52822
+&lt;br /&gt;Line: SCCP/6277243
+&lt;br /&gt;Line: SCCP/2836
+&lt;br /&gt;Line: SCCP/423
+&lt;br /&gt;Line: SCCP/69420
+&lt;br /&gt;Line: SCCP/18006473487
+&lt;br /&gt;Line: SCCP/18003282868
+&lt;br /&gt;Line: SCCP/267642
+&lt;br /&gt;Line: SCCP/7976
+&lt;br /&gt;Line: SCCP/18002254827
+&lt;br /&gt;Line: SIP/2267465
+&lt;br /&gt;Line: SCCP/7826763
+&lt;br /&gt;Line: SIP/1005
+&lt;br /&gt;Line: SIP/3425
+&lt;br /&gt;Line: SIP/9455
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;</log>
+  </ExtensionsProcessor>
+  <HintsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 2655328,hint,SCCP/2655328
+&lt;br /&gt;Line: exten =&gt; 4383858,hint,SCCP/4383858
+&lt;br /&gt;Line: exten =&gt; 3825968,hint,SCCP/3825968
+&lt;br /&gt;Line: exten =&gt; 0,hint,SCCP/0
+&lt;br /&gt;Line: exten =&gt; 999,hint,SCCP/999
+&lt;br /&gt;Line: exten =&gt; 3807,hint,SCCP/3807
+&lt;br /&gt;Line: exten =&gt; 3802,hint,SCCP/3802
+&lt;br /&gt;Line: exten =&gt; 3801,hint,SCCP/3801
+&lt;br /&gt;Line: exten =&gt; 3806,hint,SCCP/3806
+&lt;br /&gt;Line: exten =&gt; 7201,hint,SIP/PA36
+&lt;br /&gt;Line: exten =&gt; 7202,hint,SIP/PA6
+&lt;br /&gt;Line: exten =&gt; 7203,hint,SIP/PA12
+&lt;br /&gt;Line: exten =&gt; 9665,hint,SIP/zonk
+&lt;br /&gt;Line: exten =&gt; 2337,hint,SCCP/2337
+&lt;br /&gt;Line: exten =&gt; 5683,hint,SCCP/5683
+&lt;br /&gt;Line: exten =&gt; 7722672267,hint,SCCP/7722672267
+&lt;br /&gt;Line: exten =&gt; 786,hint,SCCP/786
+&lt;br /&gt;Line: exten =&gt; 2835,hint,SCCP/2835
+&lt;br /&gt;Line: exten =&gt; 8433,hint,SCCP/8433
+&lt;br /&gt;Line: exten =&gt; 3663,hint,SCCP/3663
+&lt;br /&gt;Line: exten =&gt; 55526567,hint,SCCP/55526567
+&lt;br /&gt;Line: exten =&gt; 929,hint,SCCP/929
+&lt;br /&gt;Line: exten =&gt; 208,hint,SCCP/208
+&lt;br /&gt;Line: exten =&gt; 7746,hint,SCCP/7746
+&lt;br /&gt;Line: exten =&gt; 52669,hint,SCCP/52669
+&lt;br /&gt;Line: exten =&gt; 323,hint,SCCP/323
+&lt;br /&gt;Line: exten =&gt; 756847,hint,SCCP/756847
+&lt;br /&gt;Line: exten =&gt; 736782,hint,SCCP/736782
+&lt;br /&gt;Line: exten =&gt; 938,hint,SCCP/938
+&lt;br /&gt;Line: exten =&gt; 227224,hint,SCCP/227224
+&lt;br /&gt;Line: exten =&gt; 52822,hint,SCCP/52822
+&lt;br /&gt;Line: exten =&gt; 6277243,hint,SCCP/6277243
+&lt;br /&gt;Line: exten =&gt; 2836,hint,SCCP/2836
+&lt;br /&gt;Line: exten =&gt; 423,hint,SCCP/423
+&lt;br /&gt;Line: exten =&gt; 69420,hint,SCCP/69420
+&lt;br /&gt;Line: exten =&gt; 18006473487,hint,SCCP/18006473487
+&lt;br /&gt;Line: exten =&gt; 18003282868,hint,SCCP/18003282868
+&lt;br /&gt;Line: exten =&gt; 267642,hint,SCCP/267642
+&lt;br /&gt;Line: exten =&gt; 7976,hint,SCCP/7976
+&lt;br /&gt;Line: exten =&gt; 18002254827,hint,SCCP/18002254827
+&lt;br /&gt;Line: exten =&gt; 2267465,hint,SIP/899a6
+&lt;br /&gt;Line: exten =&gt; 7826763,hint,SCCP/7826763
+&lt;br /&gt;Line: exten =&gt; 1005,hint,SIP/618dc
+&lt;br /&gt;Line: exten =&gt; 3425,hint,SIP/74286
+&lt;br /&gt;Line: exten =&gt; 9455,hint,SIP/will
+&lt;br /&gt;Line: exten =&gt; 236,hint,SIP/test
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+</log>
+  </HintsProcessor>
+  <ButtonsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+&lt;br /&gt;Line: button - speeddial, RANDOM, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, FUT SALES, 4383858, 4383858@hints
+&lt;br /&gt;Line: button - speeddial, Cust Disservice, 3825968, 3825968@hints
+&lt;br /&gt;Line: button - speeddial, OPERATOR, 0, 0@hints
+&lt;br /&gt;Line: button - speeddial, RANGER HQ, 999, 999@hints
+&lt;br /&gt;Line: button - speeddial, West Payphone, 3807, 3807@hints
+&lt;br /&gt;Line: button - speeddial, East Payphone, 3802, 3802@hints
+&lt;br /&gt;Line: button - speeddial, Effigy Payphone, 3801, 3801@hints
+&lt;br /&gt;Line: button - speeddial, X Roads Payphone, 3806, 3806@hints
+&lt;br /&gt;Line: button - speeddial, East Pager, 7201, 7201@hints
+&lt;br /&gt;Line: button - speeddial, XRoadsPager, 7202, 7202@hints
+&lt;br /&gt;Line: button - speeddial, West Pager, 7203, 7203@hints
+&lt;br /&gt;Line: button - speeddial, zonk, 9665, 9665@hints
+&lt;br /&gt;Line: button - speeddial, Beer and Darts, 2337, 2337@hints
+&lt;br /&gt;Line: button - speeddial, FaceLazers, 5683, 5683@hints
+&lt;br /&gt;Line: button - speeddial, Camp Camp, 7722672267, 7722672267@hints
+&lt;br /&gt;Line: button - speeddial, Tinder, 786, 786@hints
+&lt;br /&gt;Line: button - speeddial, CUDL, 2835, 2835@hints
+&lt;br /&gt;Line: button - speeddial, The Dhaba, 8433, 8433@hints
+&lt;br /&gt;Line: button - speeddial, WallysCorndogs, 3663, 3663@hints
+&lt;br /&gt;Line: button - speeddial, In Burning Color, 55526567, 55526567@hints
+&lt;br /&gt;Line: button - speeddial, Yayborhood, 929, 929@hints
+&lt;br /&gt;Line: button - speeddial, So Sassy, 208, 208@hints
+&lt;br /&gt;Line: button - speeddial, Spin Camp, 7746, 7746@hints
+&lt;br /&gt;Line: button - speeddial, Jammie Camp, 52669, 52669@hints
+&lt;br /&gt;Line: button - speeddial, Dad Camp, 323, 323@hints
+&lt;br /&gt;Line: button - speeddial, Sultry Sloth, 756847, 756847@hints
+&lt;br /&gt;Line: button - speeddial, Sensation Station, 736782, 736782@hints
+&lt;br /&gt;Line: button - speeddial, Circle of Water, 938, 938@hints
+&lt;br /&gt;Line: button - speeddial, Casbah, 227224, 227224@hints
+&lt;br /&gt;Line: button - speeddial, Lava Lounge2, 52822, 52822@hints
+&lt;br /&gt;Line: button - speeddial, Liminal, 6277243, 6277243@hints
+&lt;br /&gt;Line: button - speeddial, ChillTheFuckOut, 2836, 2836@hints
+&lt;br /&gt;Line: button - speeddial, ICE, 423, 423@hints
+&lt;br /&gt;Line: button - speeddial, Bad Bitch, 69420, 69420@hints
+&lt;br /&gt;Line: button - speeddial, Misfits, 18006473487, 18006473487@hints
+&lt;br /&gt;Line: button - speeddial, Tiki Tiki, 18003282868, 18003282868@hints
+&lt;br /&gt;Line: button - speeddial, CosmicCreatures, 267642, 267642@hints
+&lt;br /&gt;Line: button - speeddial, P Hash House, 7976, 7976@hints
+&lt;br /&gt;Line: button - speeddial, VAS, 18002254827, 18002254827@hints
+&lt;br /&gt;Line: button - speeddial, CamPINK, 2267465, 2267465@hints
+&lt;br /&gt;Line: button - speeddial, Stamp Camp, 7826763, 7826763@hints
+&lt;br /&gt;Line: button - speeddial, KFLIP, 1005, 1005@hints
+&lt;br /&gt;Line: button - speeddial, R BurnhardAss, 3425, 3425@hints
+&lt;br /&gt;Line: button - speeddial, Will Swallow, 9455, 9455@hints
+&lt;br /&gt;Line: button - speeddial, FUT CEO, 236, 236@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+</log>
+  </ButtonsProcessor>
+</xml>

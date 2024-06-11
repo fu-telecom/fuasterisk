@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<xml>
+  <FullLog>&lt;h2&gt;Processing All Phones to Asterisk&lt;/h2&gt;&lt;br&gt;Modifying 1 phones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Processing the phone list.&lt;/b&gt;&lt;br&gt;ProcessPhoneList: 000F9F1899A6&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000F9F1899A6&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F1899A6&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;Deleting Phone: 000F9F1899A6&lt;br&gt;Deleting data from asterisk for number: 12 - not 12. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Deleting data from asterisk for number: 14 - 14. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Adding Phone: 000F9F1899A6&lt;br&gt;Adding number to asterisk: 12 - not 12&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-12-1' for key 'context'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(123): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(78): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(212): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(71): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(159): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(87): SipProcessor-&gt;AddToExtensions(Object(Number))
+#6 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(50): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#7 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(26): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(117): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 1, Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#10 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#11 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#12 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: 000F9F1899A6&lt;br&gt;Deleting data from asterisk for number: 12 - not 12. Sippeer id: 253&lt;br&gt;Deleting data from asterisk for number: 14 - 14. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Removing SIP phone by name.000F9F1899A6&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 64&lt;br&gt;phone_serial: 000F9F1899A6&lt;br&gt;action: edit&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For PhoneProcessorResult&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;totalModified: 1&lt;br&gt;errorCount: 1&lt;br&gt;addedCount: 0&lt;br&gt;editedCount: 1&lt;br&gt;deletedCount: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Cleaning up deleted items.&lt;br&gt;Cleaning up deleted assignments.&lt;br&gt;Cleaning up deleted phones.&lt;br&gt;Removing unassigned numbers.&lt;br&gt;&lt;b&gt;Result For Directories&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: 14 - 14&lt;br&gt;Adding Number: 35 - 35&lt;br&gt;Adding Number: 36 - 36&lt;br&gt;Adding Number: not 12 - 12&lt;br&gt;Adding Number: Random - 726366&lt;br&gt;Adding Number: Sales - 1&lt;br&gt;Adding Number: SCCPTEST - 5454&lt;br&gt;Adding Number: V022 - 1022&lt;br&gt;Adding Number: V029-Change - 1030&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: some bullshit - 3&lt;br&gt;Processing Directory Art Cars : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: more bullshit - 4&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ExtensionsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/5454
+&lt;br /&gt;Line: SIP/12
+&lt;br /&gt;Line: SIP/14
+&lt;br /&gt;Line: SCCP/35
+&lt;br /&gt;Line: SCCP/36
+&lt;br /&gt;Line: SCCP/1
+&lt;br /&gt;Line: SCCP/1022
+&lt;br /&gt;Line: SCCP/1030
+&lt;br /&gt;Line: SCCP/4
+&lt;br /&gt;Line: SCCP/3
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For HintsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 5454,hint,SCCP/5454
+&lt;br /&gt;Line: exten =&gt; 12,hint,SIP/899a6
+&lt;br /&gt;Line: exten =&gt; 14,hint,SIP/899a61
+&lt;br /&gt;Line: exten =&gt; 35,hint,SCCP/35
+&lt;br /&gt;Line: exten =&gt; 36,hint,SCCP/36
+&lt;br /&gt;Line: exten =&gt; 1,hint,SCCP/1
+&lt;br /&gt;Line: exten =&gt; 1022,hint,SCCP/1022
+&lt;br /&gt;Line: exten =&gt; 1030,hint,SCCP/1030
+&lt;br /&gt;Line: exten =&gt; 4,hint,SCCP/4
+&lt;br /&gt;Line: exten =&gt; 3,hint,SCCP/3
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ButtonsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, Random, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, SCCPTEST, 5454, 5454@hints
+&lt;br /&gt;Line: button - speeddial, not 12, 12, 12@hints
+&lt;br /&gt;Line: button - speeddial, 14, 14, 14@hints
+&lt;br /&gt;Line: button - speeddial, 35, 35, 35@hints
+&lt;br /&gt;Line: button - speeddial, 36, 36, 36@hints
+&lt;br /&gt;Line: button - speeddial, Sales, 1, 1@hints
+&lt;br /&gt;Line: button - speeddial, V022, 1022, 1022@hints
+&lt;br /&gt;Line: button - speeddial, V029-Change, 1030, 1030@hints
+&lt;br /&gt;Line: button - speeddial, more bullshit, 4, 4@hints
+&lt;br /&gt;Line: button - speeddial, some bullshit, 3, 3@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</FullLog>
+  <TimeStamp>2019-10-08_0215am</TimeStamp>
+  <Phone>
+    <error>1</error>
+    <log>ProcessPhone(): 000F9F1899A6&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F1899A6&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;Deleting Phone: 000F9F1899A6&lt;br&gt;Deleting data from asterisk for number: 12 - not 12. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Deleting data from asterisk for number: 14 - 14. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Adding Phone: 000F9F1899A6&lt;br&gt;Adding number to asterisk: 12 - not 12&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-12-1' for key 'context'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(123): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(78): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(212): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(71): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(159): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(87): SipProcessor-&gt;AddToExtensions(Object(Number))
+#6 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(50): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#7 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(26): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(117): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 1, Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#10 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#11 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#12 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: 000F9F1899A6&lt;br&gt;Deleting data from asterisk for number: 12 - not 12. Sippeer id: 253&lt;br&gt;Deleting data from asterisk for number: 14 - 14. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Removing SIP phone by name.000F9F1899A6&lt;br&gt;</log>
+    <phone_id>64</phone_id>
+    <phone_serial>000F9F1899A6</phone_serial>
+    <action>edit</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <PhoneProcessorResult>
+    <error>1</error>
+    <log/>
+    <totalModified>1</totalModified>
+    <errorCount>1</errorCount>
+    <addedCount>0</addedCount>
+    <editedCount>1</editedCount>
+    <deletedCount>0</deletedCount>
+    <deletedAssignments>0</deletedAssignments>
+    <deletedPhones>0</deletedPhones>
+    <unassignedCount>0</unassignedCount>
+  </PhoneProcessorResult>
+  <Directories>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: 14 - 14&lt;br&gt;Adding Number: 35 - 35&lt;br&gt;Adding Number: 36 - 36&lt;br&gt;Adding Number: not 12 - 12&lt;br&gt;Adding Number: Random - 726366&lt;br&gt;Adding Number: Sales - 1&lt;br&gt;Adding Number: SCCPTEST - 5454&lt;br&gt;Adding Number: V022 - 1022&lt;br&gt;Adding Number: V029-Change - 1030&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: some bullshit - 3&lt;br&gt;Processing Directory Art Cars : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: more bullshit - 4&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;</log>
+  </Directories>
+  <ExtensionsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/5454
+&lt;br /&gt;Line: SIP/12
+&lt;br /&gt;Line: SIP/14
+&lt;br /&gt;Line: SCCP/35
+&lt;br /&gt;Line: SCCP/36
+&lt;br /&gt;Line: SCCP/1
+&lt;br /&gt;Line: SCCP/1022
+&lt;br /&gt;Line: SCCP/1030
+&lt;br /&gt;Line: SCCP/4
+&lt;br /&gt;Line: SCCP/3
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;</log>
+  </ExtensionsProcessor>
+  <HintsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 5454,hint,SCCP/5454
+&lt;br /&gt;Line: exten =&gt; 12,hint,SIP/899a6
+&lt;br /&gt;Line: exten =&gt; 14,hint,SIP/899a61
+&lt;br /&gt;Line: exten =&gt; 35,hint,SCCP/35
+&lt;br /&gt;Line: exten =&gt; 36,hint,SCCP/36
+&lt;br /&gt;Line: exten =&gt; 1,hint,SCCP/1
+&lt;br /&gt;Line: exten =&gt; 1022,hint,SCCP/1022
+&lt;br /&gt;Line: exten =&gt; 1030,hint,SCCP/1030
+&lt;br /&gt;Line: exten =&gt; 4,hint,SCCP/4
+&lt;br /&gt;Line: exten =&gt; 3,hint,SCCP/3
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+</log>
+  </HintsProcessor>
+  <ButtonsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, Random, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, SCCPTEST, 5454, 5454@hints
+&lt;br /&gt;Line: button - speeddial, not 12, 12, 12@hints
+&lt;br /&gt;Line: button - speeddial, 14, 14, 14@hints
+&lt;br /&gt;Line: button - speeddial, 35, 35, 35@hints
+&lt;br /&gt;Line: button - speeddial, 36, 36, 36@hints
+&lt;br /&gt;Line: button - speeddial, Sales, 1, 1@hints
+&lt;br /&gt;Line: button - speeddial, V022, 1022, 1022@hints
+&lt;br /&gt;Line: button - speeddial, V029-Change, 1030, 1030@hints
+&lt;br /&gt;Line: button - speeddial, more bullshit, 4, 4@hints
+&lt;br /&gt;Line: button - speeddial, some bullshit, 3, 3@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+</log>
+  </ButtonsProcessor>
+</xml>

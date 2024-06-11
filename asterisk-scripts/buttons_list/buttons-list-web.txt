@@ -1,0 +1,48 @@
+button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+button - speeddial, RANDOM, 726366, 726366@hints
+button - speeddial, FUT SALES, 4383858, 4383858@hints
+button - speeddial, Cust Disservice, 3825968, 3825968@hints
+button - speeddial, OPERATOR, 0, 0@hints
+button - speeddial, West Payphone, 3805, 3805@hints
+button - speeddial, N.Bad Payphone, 3802, 3802@hints
+button - speeddial, Effigy Payphone, 334, 334@hints
+button - speeddial, XRoads Payphone, 3806, 3806@hints
+button - speeddial, East Pager, 7201, 7201@hints
+button - speeddial, XRoadsPager, 7202, 7202@hints
+button - speeddial, West Pager, 7203, 7203@hints
+button - speeddial, Kidvil Payphone, 3804, 3804@hints
+button - speeddial, Greeter Payphone, 3803, 3803@hints
+button - speeddial, Tech Support, 7448224, 7448224@hints
+button - speeddial, test, 111, 111@hints
+button - speeddial, tester, 333, 333@hints
+button - speeddial, RANGERS, 999, 999@hints
+button - speeddial, CampCamp, 22672267, 22672267@hints
+button - speeddial, Curmudgeon Camp, 478679, 478679@hints
+button - speeddial, FACELAZERS, 3223529377, 3223529377@hints
+button - speeddial, YAY, 929, 929@hints
+button - speeddial, DHABA, 34222, 34222@hints
+button - speeddial, Snail Tinder, 786, 786@hints
+button - speeddial, PHHH, 4697976, 4697976@hints
+button - speeddial, MISFITS, 15556473487, 15556473487@hints
+button - speeddial, ILL Ananas, 262627, 262627@hints
+button - speeddial, Circle of Water, 438938, 438938@hints
+button - speeddial, SO SASSY, 666, 666@hints
+button - speeddial, Sens Station, 76779, 76779@hints
+button - speeddial, Bass Gravy, 976, 976@hints
+button - speeddial, Aquanaughties, 6682782, 6682782@hints
+button - speeddial, Chill TF Out, 24455, 24455@hints
+button - speeddial, Tiki Kiki, 28887, 28887@hints
+button - speeddial, ICE, 423, 423@hints
+button - speeddial, Jammie, 526643, 526643@hints
+button - speeddial, 1 800 MEOW, 18006369, 18006369@hints
+button - speeddial, Punk in Drublic, 666999, 666999@hints
+button - speeddial, CHRISTMAS TOWN, 72682, 72682@hints
+button - speeddial, Badlands HOA, 2462, 2462@hints
+button - speeddial, Cosmic Creatures, 267642, 267642@hints
+button - speeddial, Arson Around, 27766, 27766@hints
+button - speeddial, Stamp Camp, 1800782678, 1800782678@hints
+button - speeddial, WonderFuckers, 420, 420@hints
+button - speeddial, Velvet Pocket, 41187, 41187@hints
+button - speeddial, KFLIP, 1005, 1005@hints
+button - speeddial, Lava Lounge, 5282, 5282@hints
+button - speeddial, Trailer Park, 872, 872@hints

@@ -1,0 +1,135 @@
+name: Build and Push Asterisk with SCCP
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Dockerfile'
+  schedule:
+    - cron: '0 0 * * *' # This will run the workflow daily
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log in to GitLab Docker Registry
+        run: echo "${{ secrets.GITLAB_REGISTRY_PASSWORD }}" | docker login registry.gitlab.com -u "${{ secrets.GITLAB_REGISTRY_USER }}" --password-stdin
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+
+      - name: Get latest chan-sccp release
+        id: get_chan_sccp_release
+        run: |
+          latest_release=$(curl --silent "https://api.github.com/repos/chan-sccp/chan-sccp/releases/latest" | jq -r .tag_name)
+          echo "latest_release=$latest_release" >> $GITHUB_ENV
+
+      - name: Get current chan-sccp release from secrets
+        id: get_current_chan_sccp_release
+        run: |
+          current_release=${{ secrets.CURRENT_CHAN_SCCP_RELEASE }}
+          if [ -z "$current_release" ]; then
+            current_release="none"
+          fi
+          echo "current_release=$current_release" >> $GITHUB_ENV
+
+      - name: Update chan-sccp release if necessary
+        id: update_chan_sccp_release
+        run: |
+          if [ "${{ env.latest_release }}" != "none" ]; then
+            if [ "${{ env.latest_release }}" != "${{ env.current_release }}" ]; then
+              echo "Updating chan-sccp to version ${{ env.latest_release }}"
+              echo "latest_release=${{ env.latest_release }}" >> $GITHUB_ENV
+              echo "update_chan_sccp_release=true" >> $GITHUB_ENV
+            else
+              echo "No new chan-sccp release"
+              echo "update_chan_sccp_release=false" >> $GITHUB_ENV
+            fi
+          else
+            echo "No new chan-sccp release"
+            echo "update_chan_sccp_release=false" >> $GITHUB_ENV
+          fi
+
+      - name: Get latest mlan/asterisk:mini image
+        id: get_mlan_asterisk_mini_image
+        run: |
+          latest_image=$(docker pull mlan/asterisk:mini | grep 'Digest' | awk '{print $2}')
+          echo "latest_image=$latest_image" >> $GITHUB_ENV
+
+      - name: Get current mlan/asterisk:mini image from secrets
+        id: get_current_mlan_asterisk_mini_image
+        run: |
+          current_image=${{ secrets.CURRENT_MLAN_ASTERISK_MINI_IMAGE }}
+          if [ -z "$current_image" ]; then
+            current_image="none"
+          fi
+          echo "current_image=$current_image" >> $GITHUB_ENV
+
+      - name: Update mlan/asterisk:mini image if necessary
+        id: update_mlan_asterisk_mini_image
+        run: |
+          if [ "${{ env.latest_image }}" != "none" ]; then
+            if [ "${{ env.latest_image }}" != "${{ env.current_image }}" ]; then
+              echo "Updating mlan/asterisk:mini to version ${{ env.latest_image }}"
+              echo "latest_image=${{ env.latest_image }}" >> $GITHUB_ENV
+              echo "update_mlan_asterisk_mini_image=true" >> $GITHUB_ENV
+            else
+              echo "No new mlan/asterisk:mini image"
+              echo "update_mlan_asterisk_mini_image=false" >> $GITHUB_ENV
+            fi
+          else
+            echo "No new mlan/asterisk:mini image"
+            echo "update_mlan_asterisk_mini_image=false" >> $GITHUB_ENV
+          fi
+
+      - name: Check if Dockerfile has changed
+        id: check_dockerfile_changed
+        run: |
+          if [ "$(git diff --name-only HEAD^ | grep Dockerfile)" ]; then
+            echo "Dockerfile has changed"
+            echo "dockerfile_changed=true" >> $GITHUB_ENV
+          else
+            echo "Dockerfile has not changed"
+            echo "dockerfile_changed=false" >> $GITHUB_ENV
+          fi
+
+      - name: Build and push Docker image
+        if: env.update_chan_sccp_release == 'true' || env.update_mlan_asterisk_mini_image == 'true' || env.dockerfile_changed == 'true'
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: registry.gitlab.com/futelecom/furegistry/asterisk-sccpb:latest
+          build-args: |
+            MYSQL_ROOT_PASSWORD=${{ secrets.MYSQL_ROOT_PASSWORD }}
+            MYSQL_DATABASE=${{ secrets.MYSQL_DATABASE }}
+            MYSQL_USER=${{ secrets.MYSQL_USER }}
+            MYSQL_PASSWORD=${{ secrets.MYSQL_PASSWORD }}
+
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
+
+      - name: Update current chan-sccp release in GitHub secrets
+        if: env.update_chan_sccp_release == 'true' && steps.docker_build.outcome == 'success'
+        run: |
+          echo "${{ env.latest_release }}" | gh secret set CURRENT_CHAN_SCCP_RELEASE --repo $GITHUB_REPOSITORY
+
+      - name: Update current mlan/asterisk:mini image in GitHub secrets
+        if: env.update_mlan_asterisk_mini_image == 'true' && steps.docker_build.outcome == 'success'
+        run: |
+          echo "${{ env.latest_image }}" | gh secret set CURRENT_MLAN_ASTERISK_MINI_IMAGE --repo $GITHUB_REPOSITORY

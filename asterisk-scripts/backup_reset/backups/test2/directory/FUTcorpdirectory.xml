@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<CiscoIPPhoneDirectory>
+        <Title>FUT Corporate Phone List</Title>
+        <Prompt>Don't Call Us, We'll Call You</Prompt>
+
+<DirectoryEntry>
+    <Name>Operator</Name>
+    <Telephone>0</Telephone>
+</DirectoryEntry>
+
+<DirectoryEntry>
+    <Name>FUT Sales</Name>
+    <Telephone>1</Telephone>
+</DirectoryEntry>
+
+
+
+ 
+<DirectoryEntry>
+    <Name>FUTHumanResources</Name>
+    <Telephone>22222222221</Telephone>
+</DirectoryEntry>
+
+ 
+<DirectoryEntry>
+    <Name>Dalez0r</Name>
+    <Telephone>123456789</Telephone>
+</DirectoryEntry>
+</CiscoIPPhoneDirectory>

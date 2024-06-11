@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<xml>
+  <FullLog>&lt;h2&gt;Processing All Phones to Asterisk&lt;/h2&gt;&lt;br&gt;Modifying 1 phones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Processing the phone list.&lt;/b&gt;&lt;br&gt;ProcessPhoneList: 000F9F18EBFC&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): 000F9F18EBFC&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F18EBFC&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;Deleting Phone: 000F9F18EBFC&lt;br&gt;Deleting data from asterisk for number: 12 - SipTest1. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Deleting data from asterisk for number: 15 - 15. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Adding Phone: 000F9F18EBFC&lt;br&gt;Adding number to asterisk: 12 - SipTest1&lt;br&gt;Adding number to asterisk: 15 - 15&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8ebfc' for key 'name'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(113): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(78): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(212): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(71): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(69): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(47): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#6 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(26): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#7 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(116): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 1, Object(Result))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(68): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#10 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#11 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: 000F9F18EBFC&lt;br&gt;Deleting data from asterisk for number: 12 - SipTest1. Sippeer id: 113&lt;br&gt;Deleting data from asterisk for number: 15 - 15. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Removing SIP phone by name.000F9F18EBFC&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 61&lt;br&gt;phone_serial: 000F9F18EBFC&lt;br&gt;action: edit&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For PhoneProcessorResult&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;totalModified: 1&lt;br&gt;errorCount: 1&lt;br&gt;addedCount: 0&lt;br&gt;editedCount: 1&lt;br&gt;deletedCount: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Cleaning up deleted items.&lt;br&gt;Cleaning up deleted assignments.&lt;br&gt;Cleaning up deleted phones.&lt;br&gt;Removing unassigned numbers.&lt;br&gt;&lt;b&gt;Result For Directories&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Unlisted : &lt;br&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Deleting Number: SipTest1 - 12 and &lt;br&gt;Deleting Number: 15 - 15 and &lt;br&gt;Deleting Number: SipTest1 - 12 and &lt;br&gt;Deleting Number: 15 - 15 and &lt;br&gt;Adding Number: SipTest1 - 12&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Processing Directory Art Cars : artcarsdirectory.xml&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ExtensionsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/1111
+&lt;br /&gt;Line: SCCP/726366
+&lt;br /&gt;Line: SCCP/5683
+&lt;br /&gt;Line: SCCP/873287
+&lt;br /&gt;Line: SCCP/666
+&lt;br /&gt;Line: SCCP/8678842
+&lt;br /&gt;Line: SCCP/19002445688
+&lt;br /&gt;Line: SCCP/7667
+&lt;br /&gt;Line: SCCP/17482637746
+&lt;br /&gt;Line: SCCP/11235
+&lt;br /&gt;Line: SCCP/2267
+&lt;br /&gt;Line: SCCP/2147483647
+&lt;br /&gt;Line: SCCP/7464
+&lt;br /&gt;Line: SCCP/843552
+&lt;br /&gt;Line: SCCP/323
+&lt;br /&gt;Line: SCCP/7746
+&lt;br /&gt;Line: SCCP/2888
+&lt;br /&gt;Line: SCCP/32623
+&lt;br /&gt;Line: SCCP/7277
+&lt;br /&gt;Line: SCCP/7659763
+&lt;br /&gt;Line: SCCP/18002687266
+&lt;br /&gt;Line: SCCP/77275
+&lt;br /&gt;Line: SCCP/368
+&lt;br /&gt;Line: SCCP/311
+&lt;br /&gt;Line: SCCP/1964
+&lt;br /&gt;Line: SCCP/832
+&lt;br /&gt;Line: SCCP/227224
+&lt;br /&gt;Line: SCCP/7112
+&lt;br /&gt;Line: SCCP/73529
+&lt;br /&gt;Line: SCCP/76779
+&lt;br /&gt;Line: SCCP/1112222
+&lt;br /&gt;Line: SIP/12
+&lt;br /&gt;Line: SCCP/15
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For HintsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 1111,hint,SCCP/1111
+&lt;br /&gt;Line: exten =&gt; 726366,hint,SCCP/726366
+&lt;br /&gt;Line: exten =&gt; 5683,hint,SCCP/5683
+&lt;br /&gt;Line: exten =&gt; 873287,hint,SCCP/873287
+&lt;br /&gt;Line: exten =&gt; 666,hint,SCCP/666
+&lt;br /&gt;Line: exten =&gt; 8678842,hint,SCCP/8678842
+&lt;br /&gt;Line: exten =&gt; 19002445688,hint,SCCP/19002445688
+&lt;br /&gt;Line: exten =&gt; 7667,hint,SCCP/7667
+&lt;br /&gt;Line: exten =&gt; 17482637746,hint,SCCP/17482637746
+&lt;br /&gt;Line: exten =&gt; 11235,hint,SCCP/11235
+&lt;br /&gt;Line: exten =&gt; 2267,hint,SCCP/2267
+&lt;br /&gt;Line: exten =&gt; 2147483647,hint,SCCP/2147483647
+&lt;br /&gt;Line: exten =&gt; 7464,hint,SCCP/7464
+&lt;br /&gt;Line: exten =&gt; 843552,hint,SCCP/843552
+&lt;br /&gt;Line: exten =&gt; 323,hint,SCCP/323
+&lt;br /&gt;Line: exten =&gt; 7746,hint,SCCP/7746
+&lt;br /&gt;Line: exten =&gt; 2888,hint,SCCP/2888
+&lt;br /&gt;Line: exten =&gt; 32623,hint,SCCP/32623
+&lt;br /&gt;Line: exten =&gt; 7277,hint,SCCP/7277
+&lt;br /&gt;Line: exten =&gt; 7659763,hint,SCCP/7659763
+&lt;br /&gt;Line: exten =&gt; 18002687266,hint,SCCP/18002687266
+&lt;br /&gt;Line: exten =&gt; 77275,hint,SCCP/77275
+&lt;br /&gt;Line: exten =&gt; 368,hint,SCCP/368
+&lt;br /&gt;Line: exten =&gt; 311,hint,SCCP/311
+&lt;br /&gt;Line: exten =&gt; 1964,hint,SCCP/1964
+&lt;br /&gt;Line: exten =&gt; 832,hint,SCCP/832
+&lt;br /&gt;Line: exten =&gt; 227224,hint,SCCP/227224
+&lt;br /&gt;Line: exten =&gt; 7112,hint,SCCP/7112
+&lt;br /&gt;Line: exten =&gt; 73529,hint,SCCP/73529
+&lt;br /&gt;Line: exten =&gt; 76779,hint,SCCP/76779
+&lt;br /&gt;Line: exten =&gt; 1112222,hint,SCCP/1112222
+&lt;br /&gt;Line: exten =&gt; 12,hint,SIP/12
+&lt;br /&gt;Line: exten =&gt; 15,hint,SCCP/15
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ButtonsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, Shrug, 1111, 1111@hints
+&lt;br /&gt;Line: button - speeddial, Random, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, Doing It Loud, 5683, 5683@hints
+&lt;br /&gt;Line: button - speeddial, Sweet Jane, 873287, 873287@hints
+&lt;br /&gt;Line: button - speeddial, FTV, 666, 666@hints
+&lt;br /&gt;Line: button - speeddial, Tortuga, 8678842, 8678842@hints
+&lt;br /&gt;Line: button - speeddial, Chill, 19002445688, 19002445688@hints
+&lt;br /&gt;Line: button - speeddial, Brown Eye, 7667, 7667@hints
+&lt;br /&gt;Line: button - speeddial, Sit And Spin, 17482637746, 17482637746@hints
+&lt;br /&gt;Line: button - speeddial, Creation Flame, 11235, 11235@hints
+&lt;br /&gt;Line: button - speeddial, Camp Camp, 2267, 2267@hints
+&lt;br /&gt;Line: button - speeddial, Third Camp, 2147483647, 2147483647@hints
+&lt;br /&gt;Line: button - speeddial, Ping Pong Camp, 7464, 7464@hints
+&lt;br /&gt;Line: button - speeddial, The Fucking LLC, 843552, 843552@hints
+&lt;br /&gt;Line: button - speeddial, Dad Camp, 323, 323@hints
+&lt;br /&gt;Line: button - speeddial, Spin Camp, 7746, 7746@hints
+&lt;br /&gt;Line: button - speeddial, Butt Putts, 2888, 2888@hints
+&lt;br /&gt;Line: button - speeddial, Dark Dances , 32623, 32623@hints
+&lt;br /&gt;Line: button - speeddial, So Sassy, 7277, 7277@hints
+&lt;br /&gt;Line: button - speeddial, Flameys , 7659763, 7659763@hints
+&lt;br /&gt;Line: button - speeddial, Camp Straight Up, 18002687266, 18002687266@hints
+&lt;br /&gt;Line: button - speeddial, Sparkedelica, 77275, 77275@hints
+&lt;br /&gt;Line: button - speeddial, DMV, 368, 368@hints
+&lt;br /&gt;Line: button - speeddial, Vol Ass Squad, 311, 311@hints
+&lt;br /&gt;Line: button - speeddial, Ped Ex, 1964, 1964@hints
+&lt;br /&gt;Line: button - speeddial, Unitea, 832, 832@hints
+&lt;br /&gt;Line: button - speeddial, Casbah, 227224, 227224@hints
+&lt;br /&gt;Line: button - speeddial, The Dacha, 7112, 7112@hints
+&lt;br /&gt;Line: button - speeddial, Rejuvination Station, 73529, 73529@hints
+&lt;br /&gt;Line: button - speeddial, Sensation Stn, 76779, 76779@hints
+&lt;br /&gt;Line: button - speeddial, TEEEEST222, 1112222, 1112222@hints
+&lt;br /&gt;Line: button - speeddial, SipTest1, 12, 12@hints
+&lt;br /&gt;Line: button - speeddial, 15, 15, 15@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</FullLog>
+  <TimeStamp>2019-10-05_0349pm</TimeStamp>
+  <Phone>
+    <error>1</error>
+    <log>ProcessPhone(): 000F9F18EBFC&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SIP Phone: 000F9F18EBFC&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;Deleting Phone: 000F9F18EBFC&lt;br&gt;Deleting data from asterisk for number: 12 - SipTest1. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Deleting data from asterisk for number: 15 - 15. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Adding Phone: 000F9F18EBFC&lt;br&gt;Adding number to asterisk: 12 - SipTest1&lt;br&gt;Adding number to asterisk: 15 - 15&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8ebfc' for key 'name'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(113): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(78): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(212): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(71): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(69): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(47): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#6 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(26): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#7 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(116): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 1, Object(Result))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(68): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#10 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#11 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: 000F9F18EBFC&lt;br&gt;Deleting data from asterisk for number: 12 - SipTest1. Sippeer id: 113&lt;br&gt;Deleting data from asterisk for number: 15 - 15. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Removing SIP phone by name.000F9F18EBFC&lt;br&gt;</log>
+    <phone_id>61</phone_id>
+    <phone_serial>000F9F18EBFC</phone_serial>
+    <action>edit</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <PhoneProcessorResult>
+    <error>1</error>
+    <log/>
+    <totalModified>1</totalModified>
+    <errorCount>1</errorCount>
+    <addedCount>0</addedCount>
+    <editedCount>1</editedCount>
+    <deletedCount>0</deletedCount>
+    <deletedAssignments>0</deletedAssignments>
+    <deletedPhones>0</deletedPhones>
+    <unassignedCount>0</unassignedCount>
+  </PhoneProcessorResult>
+  <Directories>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Unlisted : &lt;br&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Deleting Number: SipTest1 - 12 and &lt;br&gt;Deleting Number: 15 - 15 and &lt;br&gt;Deleting Number: SipTest1 - 12 and &lt;br&gt;Deleting Number: 15 - 15 and &lt;br&gt;Adding Number: SipTest1 - 12&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Processing Directory Art Cars : artcarsdirectory.xml&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;</log>
+  </Directories>
+  <ExtensionsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/1111
+&lt;br /&gt;Line: SCCP/726366
+&lt;br /&gt;Line: SCCP/5683
+&lt;br /&gt;Line: SCCP/873287
+&lt;br /&gt;Line: SCCP/666
+&lt;br /&gt;Line: SCCP/8678842
+&lt;br /&gt;Line: SCCP/19002445688
+&lt;br /&gt;Line: SCCP/7667
+&lt;br /&gt;Line: SCCP/17482637746
+&lt;br /&gt;Line: SCCP/11235
+&lt;br /&gt;Line: SCCP/2267
+&lt;br /&gt;Line: SCCP/2147483647
+&lt;br /&gt;Line: SCCP/7464
+&lt;br /&gt;Line: SCCP/843552
+&lt;br /&gt;Line: SCCP/323
+&lt;br /&gt;Line: SCCP/7746
+&lt;br /&gt;Line: SCCP/2888
+&lt;br /&gt;Line: SCCP/32623
+&lt;br /&gt;Line: SCCP/7277
+&lt;br /&gt;Line: SCCP/7659763
+&lt;br /&gt;Line: SCCP/18002687266
+&lt;br /&gt;Line: SCCP/77275
+&lt;br /&gt;Line: SCCP/368
+&lt;br /&gt;Line: SCCP/311
+&lt;br /&gt;Line: SCCP/1964
+&lt;br /&gt;Line: SCCP/832
+&lt;br /&gt;Line: SCCP/227224
+&lt;br /&gt;Line: SCCP/7112
+&lt;br /&gt;Line: SCCP/73529
+&lt;br /&gt;Line: SCCP/76779
+&lt;br /&gt;Line: SCCP/1112222
+&lt;br /&gt;Line: SIP/12
+&lt;br /&gt;Line: SCCP/15
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;</log>
+  </ExtensionsProcessor>
+  <HintsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 1111,hint,SCCP/1111
+&lt;br /&gt;Line: exten =&gt; 726366,hint,SCCP/726366
+&lt;br /&gt;Line: exten =&gt; 5683,hint,SCCP/5683
+&lt;br /&gt;Line: exten =&gt; 873287,hint,SCCP/873287
+&lt;br /&gt;Line: exten =&gt; 666,hint,SCCP/666
+&lt;br /&gt;Line: exten =&gt; 8678842,hint,SCCP/8678842
+&lt;br /&gt;Line: exten =&gt; 19002445688,hint,SCCP/19002445688
+&lt;br /&gt;Line: exten =&gt; 7667,hint,SCCP/7667
+&lt;br /&gt;Line: exten =&gt; 17482637746,hint,SCCP/17482637746
+&lt;br /&gt;Line: exten =&gt; 11235,hint,SCCP/11235
+&lt;br /&gt;Line: exten =&gt; 2267,hint,SCCP/2267
+&lt;br /&gt;Line: exten =&gt; 2147483647,hint,SCCP/2147483647
+&lt;br /&gt;Line: exten =&gt; 7464,hint,SCCP/7464
+&lt;br /&gt;Line: exten =&gt; 843552,hint,SCCP/843552
+&lt;br /&gt;Line: exten =&gt; 323,hint,SCCP/323
+&lt;br /&gt;Line: exten =&gt; 7746,hint,SCCP/7746
+&lt;br /&gt;Line: exten =&gt; 2888,hint,SCCP/2888
+&lt;br /&gt;Line: exten =&gt; 32623,hint,SCCP/32623
+&lt;br /&gt;Line: exten =&gt; 7277,hint,SCCP/7277
+&lt;br /&gt;Line: exten =&gt; 7659763,hint,SCCP/7659763
+&lt;br /&gt;Line: exten =&gt; 18002687266,hint,SCCP/18002687266
+&lt;br /&gt;Line: exten =&gt; 77275,hint,SCCP/77275
+&lt;br /&gt;Line: exten =&gt; 368,hint,SCCP/368
+&lt;br /&gt;Line: exten =&gt; 311,hint,SCCP/311
+&lt;br /&gt;Line: exten =&gt; 1964,hint,SCCP/1964
+&lt;br /&gt;Line: exten =&gt; 832,hint,SCCP/832
+&lt;br /&gt;Line: exten =&gt; 227224,hint,SCCP/227224
+&lt;br /&gt;Line: exten =&gt; 7112,hint,SCCP/7112
+&lt;br /&gt;Line: exten =&gt; 73529,hint,SCCP/73529
+&lt;br /&gt;Line: exten =&gt; 76779,hint,SCCP/76779
+&lt;br /&gt;Line: exten =&gt; 1112222,hint,SCCP/1112222
+&lt;br /&gt;Line: exten =&gt; 12,hint,SIP/12
+&lt;br /&gt;Line: exten =&gt; 15,hint,SCCP/15
+&lt;br /&gt;&lt;br /&gt;</log>
+  </HintsProcessor>
+  <ButtonsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, Shrug, 1111, 1111@hints
+&lt;br /&gt;Line: button - speeddial, Random, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, Doing It Loud, 5683, 5683@hints
+&lt;br /&gt;Line: button - speeddial, Sweet Jane, 873287, 873287@hints
+&lt;br /&gt;Line: button - speeddial, FTV, 666, 666@hints
+&lt;br /&gt;Line: button - speeddial, Tortuga, 8678842, 8678842@hints
+&lt;br /&gt;Line: button - speeddial, Chill, 19002445688, 19002445688@hints
+&lt;br /&gt;Line: button - speeddial, Brown Eye, 7667, 7667@hints
+&lt;br /&gt;Line: button - speeddial, Sit And Spin, 17482637746, 17482637746@hints
+&lt;br /&gt;Line: button - speeddial, Creation Flame, 11235, 11235@hints
+&lt;br /&gt;Line: button - speeddial, Camp Camp, 2267, 2267@hints
+&lt;br /&gt;Line: button - speeddial, Third Camp, 2147483647, 2147483647@hints
+&lt;br /&gt;Line: button - speeddial, Ping Pong Camp, 7464, 7464@hints
+&lt;br /&gt;Line: button - speeddial, The Fucking LLC, 843552, 843552@hints
+&lt;br /&gt;Line: button - speeddial, Dad Camp, 323, 323@hints
+&lt;br /&gt;Line: button - speeddial, Spin Camp, 7746, 7746@hints
+&lt;br /&gt;Line: button - speeddial, Butt Putts, 2888, 2888@hints
+&lt;br /&gt;Line: button - speeddial, Dark Dances , 32623, 32623@hints
+&lt;br /&gt;Line: button - speeddial, So Sassy, 7277, 7277@hints
+&lt;br /&gt;Line: button - speeddial, Flameys , 7659763, 7659763@hints
+&lt;br /&gt;Line: button - speeddial, Camp Straight Up, 18002687266, 18002687266@hints
+&lt;br /&gt;Line: button - speeddial, Sparkedelica, 77275, 77275@hints
+&lt;br /&gt;Line: button - speeddial, DMV, 368, 368@hints
+&lt;br /&gt;Line: button - speeddial, Vol Ass Squad, 311, 311@hints
+&lt;br /&gt;Line: button - speeddial, Ped Ex, 1964, 1964@hints
+&lt;br /&gt;Line: button - speeddial, Unitea, 832, 832@hints
+&lt;br /&gt;Line: button - speeddial, Casbah, 227224, 227224@hints
+&lt;br /&gt;Line: button - speeddial, The Dacha, 7112, 7112@hints
+&lt;br /&gt;Line: button - speeddial, Rejuvination Station, 73529, 73529@hints
+&lt;br /&gt;Line: button - speeddial, Sensation Stn, 76779, 76779@hints
+&lt;br /&gt;Line: button - speeddial, TEEEEST222, 1112222, 1112222@hints
+&lt;br /&gt;Line: button - speeddial, SipTest1, 12, 12@hints
+&lt;br /&gt;Line: button - speeddial, 15, 15, 15@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+</log>
+  </ButtonsProcessor>
+</xml>

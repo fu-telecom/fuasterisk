@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<xml>
+  <FullLog>&lt;h2&gt;Processing All Phones to Asterisk&lt;/h2&gt;&lt;br&gt;Modifying 1 phones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Processing the phone list.&lt;/b&gt;&lt;br&gt;ProcessPhoneList: SEPD0574CF794A2&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEPD0574CF794A2&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF794A2&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 66&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 66&lt;br&gt;RemoveButtons()&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[HY093]: Invalid parameter number: parameter was not defined&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(123): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/asteriskdataclasses/ButtonConfigList.php(21): FUConfig::ExecuteParameterQuery('DELETE FROM ast...', Array)
+#2 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(99): ButtonConfigList-&gt;DeleteByDeviceName('SEPD0574CF794A2')
+#3 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(73): SccpProcessor-&gt;RemoveButtons(Object(SccpPhone))
+#4 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(26): SccpProcessor-&gt;DeletePhoneAsterisk(Object(SccpPhone))
+#5 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(112): SccpProcessor-&gt;ProcessPhone(Object(SccpPhone), 1, Object(Result))
+#6 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SccpPhone), Object(Result))
+#7 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#8 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#9 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SCCP Phone&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 66&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 66&lt;br&gt;RemoveButtons()&lt;br&gt;&lt;h2&gt;Couldn't handle the exception!!!!&lt;/h2&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 66&lt;br&gt;phone_serial: SEPD0574CF794A2&lt;br&gt;action: edit&lt;br&gt;phone_type_name: SCCP&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For PhoneProcessorResult&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;totalModified: 1&lt;br&gt;errorCount: 1&lt;br&gt;addedCount: 0&lt;br&gt;editedCount: 1&lt;br&gt;deletedCount: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Cleaning up deleted items.&lt;br&gt;Cleaning up deleted assignments.&lt;br&gt;Cleaning up deleted phones.&lt;br&gt;Removing unassigned numbers.&lt;br&gt;&lt;b&gt;Result For Directories&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Unlisted : &lt;br&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Processing Directory Art Cars : artcarsdirectory.xml&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ExtensionsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/726366
+&lt;br /&gt;Line: SCCP/5454
+&lt;br /&gt;Line: SIP/12
+&lt;br /&gt;Line: SIP/14
+&lt;br /&gt;Line: SCCP/35
+&lt;br /&gt;Line: SCCP/36
+&lt;br /&gt;Line: SCCP/1
+&lt;br /&gt;Line: SCCP/1022
+&lt;br /&gt;Line: SCCP/1030
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For HintsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 726366,hint,SCCP/726366
+&lt;br /&gt;Line: exten =&gt; 5454,hint,SCCP/5454
+&lt;br /&gt;Line: exten =&gt; 12,hint,SIP/12
+&lt;br /&gt;Line: exten =&gt; 14,hint,SIP/14
+&lt;br /&gt;Line: exten =&gt; 35,hint,SCCP/35
+&lt;br /&gt;Line: exten =&gt; 36,hint,SCCP/36
+&lt;br /&gt;Line: exten =&gt; 1,hint,SCCP/1
+&lt;br /&gt;Line: exten =&gt; 1022,hint,SCCP/1022
+&lt;br /&gt;Line: exten =&gt; 1030,hint,SCCP/1030
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ButtonsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, Random, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, SCCPTEST, 5454, 5454@hints
+&lt;br /&gt;Line: button - speeddial, 12, 12, 12@hints
+&lt;br /&gt;Line: button - speeddial, 14, 14, 14@hints
+&lt;br /&gt;Line: button - speeddial, 35, 35, 35@hints
+&lt;br /&gt;Line: button - speeddial, 36, 36, 36@hints
+&lt;br /&gt;Line: button - speeddial, Sales, 1, 1@hints
+&lt;br /&gt;Line: button - speeddial, V022, 1022, 1022@hints
+&lt;br /&gt;Line: button - speeddial, V029-Change, 1030, 1030@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</FullLog>
+  <TimeStamp>2019-10-07_0610am</TimeStamp>
+  <Phone>
+    <error>1</error>
+    <log>ProcessPhone(): SEPD0574CF794A2&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEPD0574CF794A2&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 66&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 66&lt;br&gt;RemoveButtons()&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[HY093]: Invalid parameter number: parameter was not defined&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(123): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/asteriskdataclasses/ButtonConfigList.php(21): FUConfig::ExecuteParameterQuery('DELETE FROM ast...', Array)
+#2 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(99): ButtonConfigList-&gt;DeleteByDeviceName('SEPD0574CF794A2')
+#3 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(73): SccpProcessor-&gt;RemoveButtons(Object(SccpPhone))
+#4 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(26): SccpProcessor-&gt;DeletePhoneAsterisk(Object(SccpPhone))
+#5 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(112): SccpProcessor-&gt;ProcessPhone(Object(SccpPhone), 1, Object(Result))
+#6 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SccpPhone), Object(Result))
+#7 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#8 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#9 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SCCP Phone&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 66&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 66&lt;br&gt;RemoveButtons()&lt;br&gt;&lt;h2&gt;Couldn't handle the exception!!!!&lt;/h2&gt;&lt;br&gt;</log>
+    <phone_id>66</phone_id>
+    <phone_serial>SEPD0574CF794A2</phone_serial>
+    <action>edit</action>
+    <phone_type_name>SCCP</phone_type_name>
+  </Phone>
+  <PhoneProcessorResult>
+    <error>1</error>
+    <log/>
+    <totalModified>1</totalModified>
+    <errorCount>1</errorCount>
+    <addedCount>0</addedCount>
+    <editedCount>1</editedCount>
+    <deletedCount>0</deletedCount>
+    <deletedAssignments>0</deletedAssignments>
+    <deletedPhones>0</deletedPhones>
+    <unassignedCount>0</unassignedCount>
+  </PhoneProcessorResult>
+  <Directories>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Unlisted : &lt;br&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Processing Directory Art Cars : artcarsdirectory.xml&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;</log>
+  </Directories>
+  <ExtensionsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/726366
+&lt;br /&gt;Line: SCCP/5454
+&lt;br /&gt;Line: SIP/12
+&lt;br /&gt;Line: SIP/14
+&lt;br /&gt;Line: SCCP/35
+&lt;br /&gt;Line: SCCP/36
+&lt;br /&gt;Line: SCCP/1
+&lt;br /&gt;Line: SCCP/1022
+&lt;br /&gt;Line: SCCP/1030
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;</log>
+  </ExtensionsProcessor>
+  <HintsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 726366,hint,SCCP/726366
+&lt;br /&gt;Line: exten =&gt; 5454,hint,SCCP/5454
+&lt;br /&gt;Line: exten =&gt; 12,hint,SIP/12
+&lt;br /&gt;Line: exten =&gt; 14,hint,SIP/14
+&lt;br /&gt;Line: exten =&gt; 35,hint,SCCP/35
+&lt;br /&gt;Line: exten =&gt; 36,hint,SCCP/36
+&lt;br /&gt;Line: exten =&gt; 1,hint,SCCP/1
+&lt;br /&gt;Line: exten =&gt; 1022,hint,SCCP/1022
+&lt;br /&gt;Line: exten =&gt; 1030,hint,SCCP/1030
+&lt;br /&gt;&lt;br /&gt;</log>
+  </HintsProcessor>
+  <ButtonsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, Random, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, SCCPTEST, 5454, 5454@hints
+&lt;br /&gt;Line: button - speeddial, 12, 12, 12@hints
+&lt;br /&gt;Line: button - speeddial, 14, 14, 14@hints
+&lt;br /&gt;Line: button - speeddial, 35, 35, 35@hints
+&lt;br /&gt;Line: button - speeddial, 36, 36, 36@hints
+&lt;br /&gt;Line: button - speeddial, Sales, 1, 1@hints
+&lt;br /&gt;Line: button - speeddial, V022, 1022, 1022@hints
+&lt;br /&gt;Line: button - speeddial, V029-Change, 1030, 1030@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+</log>
+  </ButtonsProcessor>
+</xml>

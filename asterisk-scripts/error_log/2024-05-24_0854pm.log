@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<xml>
+  <FullLog>&lt;h2&gt;Processing All Phones to Asterisk&lt;/h2&gt;&lt;br&gt;Modifying 1 phones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Processing the phone list.&lt;/b&gt;&lt;br&gt;ProcessPhoneList: SEP0011BB0DE1DE&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): SEP0011BB0DE1DE&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE1DE&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 137&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 137&lt;br&gt;RemoveButtons()SEP0011BB0DE1DE&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE1DE&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 420 Wonderfucks&lt;br&gt;Check if LineAlreadyExists: 18008276969 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 420&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-420-1' for key 'context'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(126): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(85): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(220): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(77): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(329): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(312): SccpProcessor-&gt;AddToExtensions(Object(Number), Object(SccpLine))
+#6 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(194): SccpProcessor-&gt;AddLine(Object(SccpPhone), Object(Number))
+#7 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(36): SccpProcessor-&gt;AddPhoneAsterisk(Object(SccpPhone))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(118): SccpProcessor-&gt;ProcessPhone(Object(SccpPhone), 1, Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(74): PhoneProcessor-&gt;ProcessPhone(Object(SccpPhone), Object(Result))
+#10 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(46): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#11 /var/www/fuconfig/phone-processing.php(13): PhoneProcessor-&gt;ProcessAllPhones()
+#12 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SCCP Phone&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 137&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 137&lt;br&gt;RemoveButtons()SEP0011BB0DE1DE&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 137&lt;br&gt;phone_serial: SEP0011BB0DE1DE&lt;br&gt;action: edit&lt;br&gt;phone_type_name: SCCP&lt;br&gt;xmlConfig: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For PhoneProcessorResult&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;totalModified: 1&lt;br&gt;errorCount: 1&lt;br&gt;addedCount: 0&lt;br&gt;editedCount: 1&lt;br&gt;deletedCount: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Cleaning up deleted items.&lt;br&gt;Cleaning up deleted assignments.&lt;br&gt;Cleaning up deleted phones.&lt;br&gt;Removing unassigned numbers.&lt;br&gt;&lt;b&gt;Result For Directories&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: 1 800 MEOW - 18006369&lt;br&gt;Adding Number: Aquanaughties - 6682782&lt;br&gt;Adding Number: Arson Around - 27766&lt;br&gt;Adding Number: Badlands HOA - 2462&lt;br&gt;Adding Number: Bass Gravy - 976&lt;br&gt;Adding Number: CampCamp - 22672267&lt;br&gt;Adding Number: Chill TF Out - 24455&lt;br&gt;Adding Number: CHRISTMAS TOWN - 72682&lt;br&gt;Adding Number: Circle of Water - 438938&lt;br&gt;Adding Number: Cosmic Creatures - 267642&lt;br&gt;Adding Number: Curmudgeon Camp - 478679&lt;br&gt;Adding Number: DHABA - 34222&lt;br&gt;Adding Number: FACELAZERS - 3223529377&lt;br&gt;Adding Number: ILL Ananas - 262627&lt;br&gt;Adding Number: Jammie - 526643&lt;br&gt;Adding Number: Kidvil Payphone - 3804&lt;br&gt;Adding Number: MISFITS - 15556473487&lt;br&gt;Adding Number: PHHH - 4697976&lt;br&gt;Adding Number: Punk in Drublic - 666999&lt;br&gt;Adding Number: S.Bad Payphone - 3803&lt;br&gt;Adding Number: Sens Station - 76779&lt;br&gt;Adding Number: Snail Tinder - 786&lt;br&gt;Adding Number: SO SASSY - 666&lt;br&gt;Adding Number: Stamp Camp - 1800782678&lt;br&gt;Adding Number: Tiki Kiki - 28887&lt;br&gt;Adding Number: Wonderfucks - 420&lt;br&gt;Adding Number: YAY - 929&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: COLLECTIONS - 2655328&lt;br&gt;Adding Number: Cust Disservice - 3825968&lt;br&gt;Adding Number: FUT SALES - 4383858&lt;br&gt;Adding Number: OPERATOR - 0&lt;br&gt;Adding Number: Tech Support - 7448224&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: ICE - 423&lt;br&gt;Processing Directory Art : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: Effigy Payphone - 3801&lt;br&gt;Adding Number: N.Bad Payphone - 3802&lt;br&gt;Adding Number: West Payphone - 3805&lt;br&gt;Adding Number: XRoads Payphone - 3806&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: RANGERS - 999&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ExtensionsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/2655328
+&lt;br /&gt;Line: SCCP/4383858
+&lt;br /&gt;Line: SCCP/3825968
+&lt;br /&gt;Line: SCCP/0
+&lt;br /&gt;Line: SCCP/3805
+&lt;br /&gt;Line: SCCP/3802
+&lt;br /&gt;Line: SCCP/3801
+&lt;br /&gt;Line: SCCP/3806
+&lt;br /&gt;Line: SCCP/3804
+&lt;br /&gt;Line: SCCP/3803
+&lt;br /&gt;Line: SCCP/7448224
+&lt;br /&gt;Line: SCCP/22672267
+&lt;br /&gt;Line: SCCP/478679
+&lt;br /&gt;Line: SCCP/3223529377
+&lt;br /&gt;Line: SCCP/929
+&lt;br /&gt;Line: SCCP/34222
+&lt;br /&gt;Line: SCCP/786
+&lt;br /&gt;Line: SCCP/4697976
+&lt;br /&gt;Line: SCCP/15556473487
+&lt;br /&gt;Line: SCCP/262627
+&lt;br /&gt;Line: SCCP/438938
+&lt;br /&gt;Line: SCCP/666
+&lt;br /&gt;Line: SCCP/76779
+&lt;br /&gt;Line: SCCP/420
+&lt;br /&gt;Line: SCCP/976
+&lt;br /&gt;Line: SCCP/6682782
+&lt;br /&gt;Line: SCCP/24455
+&lt;br /&gt;Line: SCCP/28887
+&lt;br /&gt;Line: SCCP/423
+&lt;br /&gt;Line: SCCP/526643
+&lt;br /&gt;Line: SCCP/18006369
+&lt;br /&gt;Line: SCCP/666999
+&lt;br /&gt;Line: SCCP/72682
+&lt;br /&gt;Line: SCCP/2462
+&lt;br /&gt;Line: SCCP/267642
+&lt;br /&gt;Line: SCCP/27766
+&lt;br /&gt;Line: SCCP/1800782678
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For HintsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 2655328,hint,SCCP/2655328
+&lt;br /&gt;Line: exten =&gt; 4383858,hint,SCCP/4383858
+&lt;br /&gt;Line: exten =&gt; 3825968,hint,SCCP/3825968
+&lt;br /&gt;Line: exten =&gt; 0,hint,SCCP/0
+&lt;br /&gt;Line: exten =&gt; 3805,hint,SCCP/3805
+&lt;br /&gt;Line: exten =&gt; 3802,hint,SCCP/3802
+&lt;br /&gt;Line: exten =&gt; 3801,hint,SCCP/3801
+&lt;br /&gt;Line: exten =&gt; 3806,hint,SCCP/3806
+&lt;br /&gt;Line: exten =&gt; 7201,hint,SIP/PA36
+&lt;br /&gt;Line: exten =&gt; 7202,hint,SIP/PA6
+&lt;br /&gt;Line: exten =&gt; 7203,hint,SIP/PA12
+&lt;br /&gt;Line: exten =&gt; 3804,hint,SCCP/3804
+&lt;br /&gt;Line: exten =&gt; 3803,hint,SCCP/3803
+&lt;br /&gt;Line: exten =&gt; 7448224,hint,SCCP/7448224
+&lt;br /&gt;Line: exten =&gt; 111,hint,SCCP/111
+&lt;br /&gt;Line: exten =&gt; 333,hint,SCCP/333
+&lt;br /&gt;Line: exten =&gt; 999,hint,SCCP/999
+&lt;br /&gt;Line: exten =&gt; 22672267,hint,SCCP/22672267
+&lt;br /&gt;Line: exten =&gt; 478679,hint,SCCP/478679
+&lt;br /&gt;Line: exten =&gt; 3223529377,hint,SCCP/3223529377
+&lt;br /&gt;Line: exten =&gt; 929,hint,SCCP/929
+&lt;br /&gt;Line: exten =&gt; 34222,hint,SCCP/34222
+&lt;br /&gt;Line: exten =&gt; 786,hint,SCCP/786
+&lt;br /&gt;Line: exten =&gt; 4697976,hint,SCCP/4697976
+&lt;br /&gt;Line: exten =&gt; 15556473487,hint,SCCP/15556473487
+&lt;br /&gt;Line: exten =&gt; 262627,hint,SCCP/262627
+&lt;br /&gt;Line: exten =&gt; 438938,hint,SCCP/438938
+&lt;br /&gt;Line: exten =&gt; 666,hint,SCCP/666
+&lt;br /&gt;Line: exten =&gt; 76779,hint,SCCP/76779
+&lt;br /&gt;Line: exten =&gt; 420,hint,SCCP/420
+&lt;br /&gt;Line: exten =&gt; 976,hint,SCCP/976
+&lt;br /&gt;Line: exten =&gt; 6682782,hint,SCCP/6682782
+&lt;br /&gt;Line: exten =&gt; 24455,hint,SCCP/24455
+&lt;br /&gt;Line: exten =&gt; 28887,hint,SCCP/28887
+&lt;br /&gt;Line: exten =&gt; 423,hint,SCCP/423
+&lt;br /&gt;Line: exten =&gt; 526643,hint,SCCP/526643
+&lt;br /&gt;Line: exten =&gt; 18006369,hint,SCCP/18006369
+&lt;br /&gt;Line: exten =&gt; 666999,hint,SCCP/666999
+&lt;br /&gt;Line: exten =&gt; 72682,hint,SCCP/72682
+&lt;br /&gt;Line: exten =&gt; 2462,hint,SCCP/2462
+&lt;br /&gt;Line: exten =&gt; 267642,hint,SCCP/267642
+&lt;br /&gt;Line: exten =&gt; 27766,hint,SCCP/27766
+&lt;br /&gt;Line: exten =&gt; 1800782678,hint,SCCP/1800782678
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ButtonsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+&lt;br /&gt;Line: button - speeddial, RANDOM, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, FUT SALES, 4383858, 4383858@hints
+&lt;br /&gt;Line: button - speeddial, Cust Disservice, 3825968, 3825968@hints
+&lt;br /&gt;Line: button - speeddial, OPERATOR, 0, 0@hints
+&lt;br /&gt;Line: button - speeddial, West Payphone, 3805, 3805@hints
+&lt;br /&gt;Line: button - speeddial, N.Bad Payphone, 3802, 3802@hints
+&lt;br /&gt;Line: button - speeddial, Effigy Payphone, 3801, 3801@hints
+&lt;br /&gt;Line: button - speeddial, XRoads Payphone, 3806, 3806@hints
+&lt;br /&gt;Line: button - speeddial, East Pager, 7201, 7201@hints
+&lt;br /&gt;Line: button - speeddial, XRoadsPager, 7202, 7202@hints
+&lt;br /&gt;Line: button - speeddial, West Pager, 7203, 7203@hints
+&lt;br /&gt;Line: button - speeddial, Kidvil Payphone, 3804, 3804@hints
+&lt;br /&gt;Line: button - speeddial, S.Bad Payphone, 3803, 3803@hints
+&lt;br /&gt;Line: button - speeddial, Tech Support, 7448224, 7448224@hints
+&lt;br /&gt;Line: button - speeddial, test, 111, 111@hints
+&lt;br /&gt;Line: button - speeddial, tester, 333, 333@hints
+&lt;br /&gt;Line: button - speeddial, RANGERS, 999, 999@hints
+&lt;br /&gt;Line: button - speeddial, CampCamp, 22672267, 22672267@hints
+&lt;br /&gt;Line: button - speeddial, Curmudgeon Camp, 478679, 478679@hints
+&lt;br /&gt;Line: button - speeddial, FACELAZERS, 3223529377, 3223529377@hints
+&lt;br /&gt;Line: button - speeddial, YAY, 929, 929@hints
+&lt;br /&gt;Line: button - speeddial, DHABA, 34222, 34222@hints
+&lt;br /&gt;Line: button - speeddial, Snail Tinder, 786, 786@hints
+&lt;br /&gt;Line: button - speeddial, PHHH, 4697976, 4697976@hints
+&lt;br /&gt;Line: button - speeddial, MISFITS, 15556473487, 15556473487@hints
+&lt;br /&gt;Line: button - speeddial, ILL Ananas, 262627, 262627@hints
+&lt;br /&gt;Line: button - speeddial, Circle of Water, 438938, 438938@hints
+&lt;br /&gt;Line: button - speeddial, SO SASSY, 666, 666@hints
+&lt;br /&gt;Line: button - speeddial, Sens Station, 76779, 76779@hints
+&lt;br /&gt;Line: button - speeddial, Wonderfucks, 420, 420@hints
+&lt;br /&gt;Line: button - speeddial, Bass Gravy, 976, 976@hints
+&lt;br /&gt;Line: button - speeddial, Aquanaughties, 6682782, 6682782@hints
+&lt;br /&gt;Line: button - speeddial, Chill TF Out, 24455, 24455@hints
+&lt;br /&gt;Line: button - speeddial, Tiki Kiki, 28887, 28887@hints
+&lt;br /&gt;Line: button - speeddial, ICE, 423, 423@hints
+&lt;br /&gt;Line: button - speeddial, Jammie, 526643, 526643@hints
+&lt;br /&gt;Line: button - speeddial, 1 800 MEOW, 18006369, 18006369@hints
+&lt;br /&gt;Line: button - speeddial, Punk in Drublic, 666999, 666999@hints
+&lt;br /&gt;Line: button - speeddial, CHRISTMAS TOWN, 72682, 72682@hints
+&lt;br /&gt;Line: button - speeddial, Badlands HOA, 2462, 2462@hints
+&lt;br /&gt;Line: button - speeddial, Cosmic Creatures, 267642, 267642@hints
+&lt;br /&gt;Line: button - speeddial, Arson Around, 27766, 27766@hints
+&lt;br /&gt;Line: button - speeddial, Stamp Camp, 1800782678, 1800782678@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</FullLog>
+  <TimeStamp>2024-05-24_0854pm</TimeStamp>
+  <Phone>
+    <error>1</error>
+    <log>ProcessPhone(): SEP0011BB0DE1DE&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SCCP Phone: SEP0011BB0DE1DE&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 137&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 137&lt;br&gt;RemoveButtons()SEP0011BB0DE1DE&lt;br&gt;AddPhoneAsterisk() called.&lt;br&gt;&lt;br&gt;AddDevice called for:SEP0011BB0DE1DE&lt;br&gt;Copying XML Config - Result (0): Success&lt;br&gt;&lt;br&gt;Add Line: 420 Wonderfucks&lt;br&gt;Check if LineAlreadyExists: 18008276969 - It does NOT exist.&lt;br&gt;Adding sccpline to DB.&lt;br&gt;Saved SccpLine - ID: 420&lt;br&gt;Updating Number and clearing flags.&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'default-420-1' for key 'context'&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/FUConfig.php(126): PDOStatement-&gt;execute(Array)
+#1 /var/www/fuconfig/dataclasses/DataClass.php(85): FUConfig::ExecuteParameterQuery('INSERT INTO ast...', Array)
+#2 /var/www/fuconfig/dataclasses/DataClass.php(220): DataClass-&gt;ExecuteQueryParameters('INSERT INTO ast...', Array, true)
+#3 /var/www/fuconfig/dataclasses/DataClass.php(77): DataClass-&gt;GenericInsertDB(false)
+#4 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(329): DataClass-&gt;SaveToDB()
+#5 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(312): SccpProcessor-&gt;AddToExtensions(Object(Number), Object(SccpLine))
+#6 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(194): SccpProcessor-&gt;AddLine(Object(SccpPhone), Object(Number))
+#7 /var/www/fuconfig/asteriskrealtime/SccpProcessor.php(36): SccpProcessor-&gt;AddPhoneAsterisk(Object(SccpPhone))
+#8 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(118): SccpProcessor-&gt;ProcessPhone(Object(SccpPhone), 1, Object(Result))
+#9 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(74): PhoneProcessor-&gt;ProcessPhone(Object(SccpPhone), Object(Result))
+#10 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(46): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#11 /var/www/fuconfig/phone-processing.php(13): PhoneProcessor-&gt;ProcessAllPhones()
+#12 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SCCP Phone&lt;br&gt;&lt;br&gt;DeletePhoneAsterisk() called. Phone: 137&lt;br&gt;&lt;br&gt;RemoveDevice() called. Phone: 137&lt;br&gt;RemoveButtons()SEP0011BB0DE1DE&lt;br&gt;</log>
+    <phone_id>137</phone_id>
+    <phone_serial>SEP0011BB0DE1DE</phone_serial>
+    <action>edit</action>
+    <phone_type_name>SCCP</phone_type_name>
+    <xmlConfig>0</xmlConfig>
+  </Phone>
+  <PhoneProcessorResult>
+    <error>1</error>
+    <log/>
+    <totalModified>1</totalModified>
+    <errorCount>1</errorCount>
+    <addedCount>0</addedCount>
+    <editedCount>1</editedCount>
+    <deletedCount>0</deletedCount>
+    <deletedAssignments>0</deletedAssignments>
+    <deletedPhones>0</deletedPhones>
+    <unassignedCount>0</unassignedCount>
+  </PhoneProcessorResult>
+  <Directories>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: 1 800 MEOW - 18006369&lt;br&gt;Adding Number: Aquanaughties - 6682782&lt;br&gt;Adding Number: Arson Around - 27766&lt;br&gt;Adding Number: Badlands HOA - 2462&lt;br&gt;Adding Number: Bass Gravy - 976&lt;br&gt;Adding Number: CampCamp - 22672267&lt;br&gt;Adding Number: Chill TF Out - 24455&lt;br&gt;Adding Number: CHRISTMAS TOWN - 72682&lt;br&gt;Adding Number: Circle of Water - 438938&lt;br&gt;Adding Number: Cosmic Creatures - 267642&lt;br&gt;Adding Number: Curmudgeon Camp - 478679&lt;br&gt;Adding Number: DHABA - 34222&lt;br&gt;Adding Number: FACELAZERS - 3223529377&lt;br&gt;Adding Number: ILL Ananas - 262627&lt;br&gt;Adding Number: Jammie - 526643&lt;br&gt;Adding Number: Kidvil Payphone - 3804&lt;br&gt;Adding Number: MISFITS - 15556473487&lt;br&gt;Adding Number: PHHH - 4697976&lt;br&gt;Adding Number: Punk in Drublic - 666999&lt;br&gt;Adding Number: S.Bad Payphone - 3803&lt;br&gt;Adding Number: Sens Station - 76779&lt;br&gt;Adding Number: Snail Tinder - 786&lt;br&gt;Adding Number: SO SASSY - 666&lt;br&gt;Adding Number: Stamp Camp - 1800782678&lt;br&gt;Adding Number: Tiki Kiki - 28887&lt;br&gt;Adding Number: Wonderfucks - 420&lt;br&gt;Adding Number: YAY - 929&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: COLLECTIONS - 2655328&lt;br&gt;Adding Number: Cust Disservice - 3825968&lt;br&gt;Adding Number: FUT SALES - 4383858&lt;br&gt;Adding Number: OPERATOR - 0&lt;br&gt;Adding Number: Tech Support - 7448224&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: ICE - 423&lt;br&gt;Processing Directory Art : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: Effigy Payphone - 3801&lt;br&gt;Adding Number: N.Bad Payphone - 3802&lt;br&gt;Adding Number: West Payphone - 3805&lt;br&gt;Adding Number: XRoads Payphone - 3806&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: RANGERS - 999&lt;br&gt;</log>
+  </Directories>
+  <ExtensionsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/2655328
+&lt;br /&gt;Line: SCCP/4383858
+&lt;br /&gt;Line: SCCP/3825968
+&lt;br /&gt;Line: SCCP/0
+&lt;br /&gt;Line: SCCP/3805
+&lt;br /&gt;Line: SCCP/3802
+&lt;br /&gt;Line: SCCP/3801
+&lt;br /&gt;Line: SCCP/3806
+&lt;br /&gt;Line: SCCP/3804
+&lt;br /&gt;Line: SCCP/3803
+&lt;br /&gt;Line: SCCP/7448224
+&lt;br /&gt;Line: SCCP/22672267
+&lt;br /&gt;Line: SCCP/478679
+&lt;br /&gt;Line: SCCP/3223529377
+&lt;br /&gt;Line: SCCP/929
+&lt;br /&gt;Line: SCCP/34222
+&lt;br /&gt;Line: SCCP/786
+&lt;br /&gt;Line: SCCP/4697976
+&lt;br /&gt;Line: SCCP/15556473487
+&lt;br /&gt;Line: SCCP/262627
+&lt;br /&gt;Line: SCCP/438938
+&lt;br /&gt;Line: SCCP/666
+&lt;br /&gt;Line: SCCP/76779
+&lt;br /&gt;Line: SCCP/420
+&lt;br /&gt;Line: SCCP/976
+&lt;br /&gt;Line: SCCP/6682782
+&lt;br /&gt;Line: SCCP/24455
+&lt;br /&gt;Line: SCCP/28887
+&lt;br /&gt;Line: SCCP/423
+&lt;br /&gt;Line: SCCP/526643
+&lt;br /&gt;Line: SCCP/18006369
+&lt;br /&gt;Line: SCCP/666999
+&lt;br /&gt;Line: SCCP/72682
+&lt;br /&gt;Line: SCCP/2462
+&lt;br /&gt;Line: SCCP/267642
+&lt;br /&gt;Line: SCCP/27766
+&lt;br /&gt;Line: SCCP/1800782678
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;</log>
+  </ExtensionsProcessor>
+  <HintsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 2655328,hint,SCCP/2655328
+&lt;br /&gt;Line: exten =&gt; 4383858,hint,SCCP/4383858
+&lt;br /&gt;Line: exten =&gt; 3825968,hint,SCCP/3825968
+&lt;br /&gt;Line: exten =&gt; 0,hint,SCCP/0
+&lt;br /&gt;Line: exten =&gt; 3805,hint,SCCP/3805
+&lt;br /&gt;Line: exten =&gt; 3802,hint,SCCP/3802
+&lt;br /&gt;Line: exten =&gt; 3801,hint,SCCP/3801
+&lt;br /&gt;Line: exten =&gt; 3806,hint,SCCP/3806
+&lt;br /&gt;Line: exten =&gt; 7201,hint,SIP/PA36
+&lt;br /&gt;Line: exten =&gt; 7202,hint,SIP/PA6
+&lt;br /&gt;Line: exten =&gt; 7203,hint,SIP/PA12
+&lt;br /&gt;Line: exten =&gt; 3804,hint,SCCP/3804
+&lt;br /&gt;Line: exten =&gt; 3803,hint,SCCP/3803
+&lt;br /&gt;Line: exten =&gt; 7448224,hint,SCCP/7448224
+&lt;br /&gt;Line: exten =&gt; 111,hint,SCCP/111
+&lt;br /&gt;Line: exten =&gt; 333,hint,SCCP/333
+&lt;br /&gt;Line: exten =&gt; 999,hint,SCCP/999
+&lt;br /&gt;Line: exten =&gt; 22672267,hint,SCCP/22672267
+&lt;br /&gt;Line: exten =&gt; 478679,hint,SCCP/478679
+&lt;br /&gt;Line: exten =&gt; 3223529377,hint,SCCP/3223529377
+&lt;br /&gt;Line: exten =&gt; 929,hint,SCCP/929
+&lt;br /&gt;Line: exten =&gt; 34222,hint,SCCP/34222
+&lt;br /&gt;Line: exten =&gt; 786,hint,SCCP/786
+&lt;br /&gt;Line: exten =&gt; 4697976,hint,SCCP/4697976
+&lt;br /&gt;Line: exten =&gt; 15556473487,hint,SCCP/15556473487
+&lt;br /&gt;Line: exten =&gt; 262627,hint,SCCP/262627
+&lt;br /&gt;Line: exten =&gt; 438938,hint,SCCP/438938
+&lt;br /&gt;Line: exten =&gt; 666,hint,SCCP/666
+&lt;br /&gt;Line: exten =&gt; 76779,hint,SCCP/76779
+&lt;br /&gt;Line: exten =&gt; 420,hint,SCCP/420
+&lt;br /&gt;Line: exten =&gt; 976,hint,SCCP/976
+&lt;br /&gt;Line: exten =&gt; 6682782,hint,SCCP/6682782
+&lt;br /&gt;Line: exten =&gt; 24455,hint,SCCP/24455
+&lt;br /&gt;Line: exten =&gt; 28887,hint,SCCP/28887
+&lt;br /&gt;Line: exten =&gt; 423,hint,SCCP/423
+&lt;br /&gt;Line: exten =&gt; 526643,hint,SCCP/526643
+&lt;br /&gt;Line: exten =&gt; 18006369,hint,SCCP/18006369
+&lt;br /&gt;Line: exten =&gt; 666999,hint,SCCP/666999
+&lt;br /&gt;Line: exten =&gt; 72682,hint,SCCP/72682
+&lt;br /&gt;Line: exten =&gt; 2462,hint,SCCP/2462
+&lt;br /&gt;Line: exten =&gt; 267642,hint,SCCP/267642
+&lt;br /&gt;Line: exten =&gt; 27766,hint,SCCP/27766
+&lt;br /&gt;Line: exten =&gt; 1800782678,hint,SCCP/1800782678
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+</log>
+  </HintsProcessor>
+  <ButtonsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+&lt;br /&gt;Line: button - speeddial, RANDOM, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, FUT SALES, 4383858, 4383858@hints
+&lt;br /&gt;Line: button - speeddial, Cust Disservice, 3825968, 3825968@hints
+&lt;br /&gt;Line: button - speeddial, OPERATOR, 0, 0@hints
+&lt;br /&gt;Line: button - speeddial, West Payphone, 3805, 3805@hints
+&lt;br /&gt;Line: button - speeddial, N.Bad Payphone, 3802, 3802@hints
+&lt;br /&gt;Line: button - speeddial, Effigy Payphone, 3801, 3801@hints
+&lt;br /&gt;Line: button - speeddial, XRoads Payphone, 3806, 3806@hints
+&lt;br /&gt;Line: button - speeddial, East Pager, 7201, 7201@hints
+&lt;br /&gt;Line: button - speeddial, XRoadsPager, 7202, 7202@hints
+&lt;br /&gt;Line: button - speeddial, West Pager, 7203, 7203@hints
+&lt;br /&gt;Line: button - speeddial, Kidvil Payphone, 3804, 3804@hints
+&lt;br /&gt;Line: button - speeddial, S.Bad Payphone, 3803, 3803@hints
+&lt;br /&gt;Line: button - speeddial, Tech Support, 7448224, 7448224@hints
+&lt;br /&gt;Line: button - speeddial, test, 111, 111@hints
+&lt;br /&gt;Line: button - speeddial, tester, 333, 333@hints
+&lt;br /&gt;Line: button - speeddial, RANGERS, 999, 999@hints
+&lt;br /&gt;Line: button - speeddial, CampCamp, 22672267, 22672267@hints
+&lt;br /&gt;Line: button - speeddial, Curmudgeon Camp, 478679, 478679@hints
+&lt;br /&gt;Line: button - speeddial, FACELAZERS, 3223529377, 3223529377@hints
+&lt;br /&gt;Line: button - speeddial, YAY, 929, 929@hints
+&lt;br /&gt;Line: button - speeddial, DHABA, 34222, 34222@hints
+&lt;br /&gt;Line: button - speeddial, Snail Tinder, 786, 786@hints
+&lt;br /&gt;Line: button - speeddial, PHHH, 4697976, 4697976@hints
+&lt;br /&gt;Line: button - speeddial, MISFITS, 15556473487, 15556473487@hints
+&lt;br /&gt;Line: button - speeddial, ILL Ananas, 262627, 262627@hints
+&lt;br /&gt;Line: button - speeddial, Circle of Water, 438938, 438938@hints
+&lt;br /&gt;Line: button - speeddial, SO SASSY, 666, 666@hints
+&lt;br /&gt;Line: button - speeddial, Sens Station, 76779, 76779@hints
+&lt;br /&gt;Line: button - speeddial, Wonderfucks, 420, 420@hints
+&lt;br /&gt;Line: button - speeddial, Bass Gravy, 976, 976@hints
+&lt;br /&gt;Line: button - speeddial, Aquanaughties, 6682782, 6682782@hints
+&lt;br /&gt;Line: button - speeddial, Chill TF Out, 24455, 24455@hints
+&lt;br /&gt;Line: button - speeddial, Tiki Kiki, 28887, 28887@hints
+&lt;br /&gt;Line: button - speeddial, ICE, 423, 423@hints
+&lt;br /&gt;Line: button - speeddial, Jammie, 526643, 526643@hints
+&lt;br /&gt;Line: button - speeddial, 1 800 MEOW, 18006369, 18006369@hints
+&lt;br /&gt;Line: button - speeddial, Punk in Drublic, 666999, 666999@hints
+&lt;br /&gt;Line: button - speeddial, CHRISTMAS TOWN, 72682, 72682@hints
+&lt;br /&gt;Line: button - speeddial, Badlands HOA, 2462, 2462@hints
+&lt;br /&gt;Line: button - speeddial, Cosmic Creatures, 267642, 267642@hints
+&lt;br /&gt;Line: button - speeddial, Arson Around, 27766, 27766@hints
+&lt;br /&gt;Line: button - speeddial, Stamp Camp, 1800782678, 1800782678@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+</log>
+  </ButtonsProcessor>
+</xml>

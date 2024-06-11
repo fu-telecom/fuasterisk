@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<CiscoIPPhoneDirectory>
+        <Title>Pay Phones</Title>
+        <Prompt>Try Our 1-900 Lines!</Prompt>
+
+
+ 
+<DirectoryEntry>
+    <Name>HISS-PayPhone-LowerField</Name>
+    <Telephone>4447</Telephone>
+</DirectoryEntry>
+
+ 
+<DirectoryEntry>
+    <Name>MEOW-HoChiMinPayPhone</Name>
+    <Telephone>6369</Telephone>
+</DirectoryEntry>
+</CiscoIPPhoneDirectory>

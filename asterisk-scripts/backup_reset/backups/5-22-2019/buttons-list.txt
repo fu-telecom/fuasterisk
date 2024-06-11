@@ -1,0 +1,8 @@
+button = speeddial, CampTest1, 900, 900@hints
+button = speeddial, camptest2, 105, 105@hints
+button = speeddial, camptest3, 901, 901@hints
+button = speeddial, camptest3, 901, 901@hints
+button = speeddial, camptest4, 902, 902@hints
+button = speeddial, camptest5, 905, 905@hints
+button = speeddial, camptest6, 906, 906@hints
+button = speeddial, Daniel, 6802027, 6802027@hints

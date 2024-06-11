@@ -1,0 +1,1 @@
+button = speeddial, 0-Operator, 0, 0@hints

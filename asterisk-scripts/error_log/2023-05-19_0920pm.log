@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<xml>
+  <FullLog>&lt;h2&gt;Processing All Phones to Asterisk&lt;/h2&gt;&lt;br&gt;Modifying 1 phones.&lt;br&gt;&lt;br&gt;&lt;b&gt;Processing the phone list.&lt;/b&gt;&lt;br&gt;ProcessPhoneList: test&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For Phone&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;ProcessPhone(): test&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SIP Phone: test&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;Deleting Phone: test&lt;br&gt;Deleting data from asterisk for number: 123456 - test. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Adding Phone: test&lt;br&gt;Adding number to asterisk: 123456 - test&lt;br&gt;Username or password not set! Can't add.&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;Missing SIP Username and/or Password.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(50): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#1 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(26): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#2 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(117): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 1, Object(Result))
+#3 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#4 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#5 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#6 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: test&lt;br&gt;Deleting data from asterisk for number: 123456 - test. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Removing SIP phone by name.test&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;phone_id: 51&lt;br&gt;phone_serial: test&lt;br&gt;action: edit&lt;br&gt;phone_type_name: SIP&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For PhoneProcessorResult&lt;/b&gt;&lt;br&gt;Error: 1&lt;br&gt;Log: &lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;totalModified: 1&lt;br&gt;errorCount: 1&lt;br&gt;addedCount: 0&lt;br&gt;editedCount: 1&lt;br&gt;deletedCount: 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Cleaning up deleted items.&lt;br&gt;Cleaning up deleted assignments.&lt;br&gt;Cleaning up deleted phones.&lt;br&gt;Removing unassigned numbers.&lt;br&gt;&lt;b&gt;Result For Directories&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: COLLECTIONS - 2655328&lt;br&gt;Adding Number: Cust Disservice - 3825968&lt;br&gt;Adding Number: FUT SALES - 4383858&lt;br&gt;Adding Number: OPERATOR - 0&lt;br&gt;Adding Number: REFUNDS - 3287448&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: SEX HOTLINE - 7399&lt;br&gt;Processing Directory Art : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: test - 4444&lt;br&gt;Adding Number: test - 123456&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: East Payphone - 3802&lt;br&gt;Adding Number: Effigy Payphone - 3801&lt;br&gt;Adding Number: West Payphone - 3807&lt;br&gt;Adding Number: X Roads Payphone - 3806&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: RANGER HQ - 999&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ExtensionsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/2655328
+&lt;br /&gt;Line: SCCP/4383858
+&lt;br /&gt;Line: SCCP/3825968
+&lt;br /&gt;Line: SCCP/0
+&lt;br /&gt;Line: SCCP/7399
+&lt;br /&gt;Line: SCCP/3287448
+&lt;br /&gt;Line: SCCP/3807
+&lt;br /&gt;Line: SCCP/3802
+&lt;br /&gt;Line: SCCP/3801
+&lt;br /&gt;Line: SCCP/3806
+&lt;br /&gt;Line: SCCP/4444
+&lt;br /&gt;Line: SCCP/123456
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For HintsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 2655328,hint,SCCP/2655328
+&lt;br /&gt;Line: exten =&gt; 4383858,hint,SCCP/4383858
+&lt;br /&gt;Line: exten =&gt; 3825968,hint,SCCP/3825968
+&lt;br /&gt;Line: exten =&gt; 0,hint,SCCP/0
+&lt;br /&gt;Line: exten =&gt; 999,hint,SCCP/999
+&lt;br /&gt;Line: exten =&gt; 7399,hint,SCCP/7399
+&lt;br /&gt;Line: exten =&gt; 3287448,hint,SCCP/3287448
+&lt;br /&gt;Line: exten =&gt; 3807,hint,SCCP/3807
+&lt;br /&gt;Line: exten =&gt; 3802,hint,SCCP/3802
+&lt;br /&gt;Line: exten =&gt; 3801,hint,SCCP/3801
+&lt;br /&gt;Line: exten =&gt; 3806,hint,SCCP/3806
+&lt;br /&gt;Line: exten =&gt; 4444,hint,SCCP/4444
+&lt;br /&gt;Line: exten =&gt; 123456,hint,SCCP/123456
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Result For ButtonsProcessor&lt;/b&gt;&lt;br&gt;Error: 0&lt;br&gt;Log: &lt;p&gt;&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+&lt;br /&gt;Line: button - speeddial, RANDOM, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, FUT SALES, 4383858, 4383858@hints
+&lt;br /&gt;Line: button - speeddial, Cust Disservice, 3825968, 3825968@hints
+&lt;br /&gt;Line: button - speeddial, OPERATOR, 0, 0@hints
+&lt;br /&gt;Line: button - speeddial, RANGER HQ, 999, 999@hints
+&lt;br /&gt;Line: button - speeddial, SEX HOTLINE, 7399, 7399@hints
+&lt;br /&gt;Line: button - speeddial, REFUNDS, 3287448, 3287448@hints
+&lt;br /&gt;Line: button - speeddial, West Payphone, 3807, 3807@hints
+&lt;br /&gt;Line: button - speeddial, East Payphone, 3802, 3802@hints
+&lt;br /&gt;Line: button - speeddial, Effigy Payphone, 3801, 3801@hints
+&lt;br /&gt;Line: button - speeddial, X Roads Payphone, 3806, 3806@hints
+&lt;br /&gt;Line: button - speeddial, test, 4444, 4444@hints
+&lt;br /&gt;Line: button - speeddial, test, 123456, 123456@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</FullLog>
+  <TimeStamp>2023-05-19_0920pm</TimeStamp>
+  <Phone>
+    <error>1</error>
+    <log>ProcessPhone(): test&lt;br&gt;Phone requires action: EDIT&lt;br&gt;&lt;h2&gt;Processing SIP Phone: test&lt;/h2&gt;&lt;b&gt;Editing Phone&lt;/b&gt;&lt;br&gt;Deleting Phone: test&lt;br&gt;Deleting data from asterisk for number: 123456 - test. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Adding Phone: test&lt;br&gt;Adding number to asterisk: 123456 - test&lt;br&gt;Username or password not set! Can't add.&lt;br&gt;&lt;h3&gt;An Error Occurred.&lt;/h3&gt;&lt;br&gt;&lt;b&gt;Error!!!&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Error Message: &lt;/b&gt;Missing SIP Username and/or Password.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Trace: &lt;/b&gt;#0 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(50): SipProcessor-&gt;AddToAsterisk(Object(SipPhone), Object(Number))
+#1 /var/www/fuconfig/asteriskrealtime/SipProcessor.php(26): SipProcessor-&gt;AddPhone(Object(SipPhone))
+#2 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(117): SipProcessor-&gt;ProcessPhone(Object(SipPhone), 1, Object(Result))
+#3 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(69): PhoneProcessor-&gt;ProcessPhone(Object(SipPhone), Object(Result))
+#4 /var/www/fuconfig/asteriskrealtime/PhoneProcessor.php(42): PhoneProcessor-&gt;ProcessPhoneList(Object(PhoneList))
+#5 /var/www/fuconfig/phone-processing.php(14): PhoneProcessor-&gt;ProcessAllPhones()
+#6 {main}&lt;br /&gt;&lt;br /&gt;Unwinding any database adds. (For SCCP: Doesn't do sccpline.)&lt;br&gt;Unwind deleting SIP Phone&lt;br&gt;Deleting Phone: test&lt;br&gt;Deleting data from asterisk for number: 123456 - test. Sippeer id: &lt;br&gt;Number is missing sippeer_id.&lt;br&gt;Removing SIP phone by name.test&lt;br&gt;</log>
+    <phone_id>51</phone_id>
+    <phone_serial>test</phone_serial>
+    <action>edit</action>
+    <phone_type_name>SIP</phone_type_name>
+  </Phone>
+  <PhoneProcessorResult>
+    <error>1</error>
+    <log/>
+    <totalModified>1</totalModified>
+    <errorCount>1</errorCount>
+    <addedCount>0</addedCount>
+    <editedCount>1</editedCount>
+    <deletedCount>0</deletedCount>
+    <deletedAssignments>0</deletedAssignments>
+    <deletedPhones>0</deletedPhones>
+    <unassignedCount>0</unassignedCount>
+  </PhoneProcessorResult>
+  <Directories>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Directory Processing&lt;/h2&gt;Processing Directory Theme Camp Directory : campdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory FUT Corporate : FUTcorpdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: COLLECTIONS - 2655328&lt;br&gt;Adding Number: Cust Disservice - 3825968&lt;br&gt;Adding Number: FUT SALES - 4383858&lt;br&gt;Adding Number: OPERATOR - 0&lt;br&gt;Adding Number: REFUNDS - 3287448&lt;br&gt;Processing Directory Volunteer Departments : departmentdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: SEX HOTLINE - 7399&lt;br&gt;Processing Directory Art : artcarsdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: test - 4444&lt;br&gt;Adding Number: test - 123456&lt;br&gt;Processing Directory Pay Phones : payphonedirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: East Payphone - 3802&lt;br&gt;Adding Number: Effigy Payphone - 3801&lt;br&gt;Adding Number: West Payphone - 3807&lt;br&gt;Adding Number: X Roads Payphone - 3806&lt;br&gt;Processing Directory Public Address : PAdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Processing Directory Ranger : rangersdirectory.xml&lt;br&gt;Replacing file with empty directory.&lt;br&gt;Adding Number: RANGER HQ - 999&lt;br&gt;</log>
+  </Directories>
+  <ExtensionsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Extension Processing&lt;/h2&gt;&lt;b&gt;Writing Extensions File: &lt;/b&gt;&lt;br/&gt;Line: SCCP/2655328
+&lt;br /&gt;Line: SCCP/4383858
+&lt;br /&gt;Line: SCCP/3825968
+&lt;br /&gt;Line: SCCP/0
+&lt;br /&gt;Line: SCCP/7399
+&lt;br /&gt;Line: SCCP/3287448
+&lt;br /&gt;Line: SCCP/3807
+&lt;br /&gt;Line: SCCP/3802
+&lt;br /&gt;Line: SCCP/3801
+&lt;br /&gt;Line: SCCP/3806
+&lt;br /&gt;Line: SCCP/4444
+&lt;br /&gt;Line: SCCP/123456
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Extensions Files Into 1&lt;/b&gt;&lt;br&gt;</log>
+  </ExtensionsProcessor>
+  <HintsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Hints Processing&lt;/h2&gt;&lt;b&gt;Writing Hints File: &lt;/b&gt;&lt;br/&gt;Line: exten =&gt; 2655328,hint,SCCP/2655328
+&lt;br /&gt;Line: exten =&gt; 4383858,hint,SCCP/4383858
+&lt;br /&gt;Line: exten =&gt; 3825968,hint,SCCP/3825968
+&lt;br /&gt;Line: exten =&gt; 0,hint,SCCP/0
+&lt;br /&gt;Line: exten =&gt; 999,hint,SCCP/999
+&lt;br /&gt;Line: exten =&gt; 7399,hint,SCCP/7399
+&lt;br /&gt;Line: exten =&gt; 3287448,hint,SCCP/3287448
+&lt;br /&gt;Line: exten =&gt; 3807,hint,SCCP/3807
+&lt;br /&gt;Line: exten =&gt; 3802,hint,SCCP/3802
+&lt;br /&gt;Line: exten =&gt; 3801,hint,SCCP/3801
+&lt;br /&gt;Line: exten =&gt; 3806,hint,SCCP/3806
+&lt;br /&gt;Line: exten =&gt; 4444,hint,SCCP/4444
+&lt;br /&gt;Line: exten =&gt; 123456,hint,SCCP/123456
+&lt;br /&gt;&lt;br /&gt;&lt;h3&gt;Reloading Dialplan&lt;h3&gt;&lt;br&gt;Dialplan reloaded.
+Asterisk ending (0).
+</log>
+  </HintsProcessor>
+  <ButtonsProcessor>
+    <error>0</error>
+    <log>&lt;br&gt;&lt;h2&gt;Buttons Processing&lt;/h2&gt;&lt;b&gt;Writing Buttons File: &lt;/b&gt;&lt;br/&gt;Line: button - speeddial, COLLECTIONS, 2655328, 2655328@hints
+&lt;br /&gt;Line: button - speeddial, RANDOM, 726366, 726366@hints
+&lt;br /&gt;Line: button - speeddial, FUT SALES, 4383858, 4383858@hints
+&lt;br /&gt;Line: button - speeddial, Cust Disservice, 3825968, 3825968@hints
+&lt;br /&gt;Line: button - speeddial, OPERATOR, 0, 0@hints
+&lt;br /&gt;Line: button - speeddial, RANGER HQ, 999, 999@hints
+&lt;br /&gt;Line: button - speeddial, SEX HOTLINE, 7399, 7399@hints
+&lt;br /&gt;Line: button - speeddial, REFUNDS, 3287448, 3287448@hints
+&lt;br /&gt;Line: button - speeddial, West Payphone, 3807, 3807@hints
+&lt;br /&gt;Line: button - speeddial, East Payphone, 3802, 3802@hints
+&lt;br /&gt;Line: button - speeddial, Effigy Payphone, 3801, 3801@hints
+&lt;br /&gt;Line: button - speeddial, X Roads Payphone, 3806, 3806@hints
+&lt;br /&gt;Line: button - speeddial, test, 4444, 4444@hints
+&lt;br /&gt;Line: button - speeddial, test, 123456, 123456@hints
+&lt;br /&gt;&lt;br /&gt;&lt;br&gt;&lt;b&gt;Combining Buttons Files Into 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Generating 7960/7965 lists&lt;/b&gt;&lt;br&gt;Writing Buttons File
+Writing 7965 Buttons List
+</log>
+  </ButtonsProcessor>
+</xml>
