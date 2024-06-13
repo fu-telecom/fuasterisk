@@ -76,8 +76,12 @@ RUN cd /usr/src/asterisk && \
     make install-headers
 
 # Ensure /var/lib/asterisk exists and has the correct permissions
+
+# Ensure Asterisk database directory exists and has the correct permissions
 RUN mkdir -p /var/lib/asterisk && \
+    touch /var/lib/asterisk/astdb.sqlite3 && \
     chown -R asterisk:asterisk /var/lib/asterisk
+
 
 # Ensure Asterisk database file exists and has the correct permissions
 RUN touch /var/lib/asterisk/astdb.sqlite3 && \
@@ -97,6 +101,8 @@ COPY ./asterisk-scripts/ /asterisk_scripts/
 # Expose necessary ports
 EXPOSE 5060/tcp 5061/tcp 5060/udp 2000/tcp 5038/tcp
 EXPOSE 10000-20000/udp
+
+USER asterisk
 
 # Start Asterisk in the foreground
 CMD ["asterisk", "-f", "-U", "asterisk", "-G", "asterisk"]
