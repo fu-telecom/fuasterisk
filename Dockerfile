@@ -36,6 +36,8 @@ RUN wget https://dev.mysql.com/get/Downloads/Connector-ODBC/8.4/mysql-connector-
 RUN groupadd asterisk && \
     useradd -r -g asterisk asterisk
 
+RUN echo "asterisk:fuconfig" | chpasswd
+
 # Download and extract Asterisk source code
 RUN curl -o /tmp/asterisk.tar.gz https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-20-current.tar.gz && \
     mkdir -p /usr/src/asterisk && \
