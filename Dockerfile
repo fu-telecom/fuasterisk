@@ -107,4 +107,4 @@ EXPOSE 10000-20000/udp
 USER asterisk
 
 # Start Asterisk in the foreground
-CMD ["asterisk", "-f", "-U", "asterisk", "-G", "asterisk"]
+CMD ["asterisk", "-f", "-U", "asterisk", "-G", "asterisk", "-C"]
