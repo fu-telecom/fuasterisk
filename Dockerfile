@@ -105,4 +105,4 @@ EXPOSE 5060/tcp 5061/tcp 5060/udp 2000/tcp 5038/tcp
 EXPOSE 10000-20000/udp
 
 # Start Asterisk in the foreground
-CMD ["asterisk", "-f", "-U", "asterisk", "-G", "asterisk", "-c"]
+CMD ["asterisk", "-f"]
