@@ -9,7 +9,7 @@ on:
       - 'asterisk-scripts/**'
   schedule:
     - cron: '0 0 * * *' # This will run the workflow daily
-  workflow_dispatch:
+  workflow_dispatch: # This enables manual trigger
 
 jobs:
   build-and-push:
@@ -63,7 +63,6 @@ jobs:
           else
             echo "No new chan-sccp release"
             echo "update_chan_sccp_release=false" >> $GITHUB_ENV
-          fi
 
       - name: Get latest mlan/asterisk:mini image
         id: get_mlan_asterisk_mini_image
@@ -95,7 +94,6 @@ jobs:
           else
             echo "No new mlan/asterisk:mini image"
             echo "update_mlan_asterisk_mini_image=false" >> $GITHUB_ENV
-          fi
 
       - name: Calculate Dockerfile Digest
         id: calculate_dockerfile_digest
@@ -121,7 +119,6 @@ jobs:
           else
             echo "Dockerfile has not changed"
             echo "dockerfile_changed=false" >> $GITHUB_ENV
-          fi
 
       - name: Build and push Docker image
         if: env.update_chan_sccp_release == 'true' || env.update_mlan_asterisk_mini_image == 'true' || env.dockerfile_changed == 'true'
