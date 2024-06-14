@@ -63,7 +63,8 @@ jobs:
           else
             echo "No new chan-sccp release"
             echo "update_chan_sccp_release=false" >> $GITHUB_ENV
-
+          fi
+  
       - name: Get latest mlan/asterisk:mini image
         id: get_mlan_asterisk_mini_image
         run: |
@@ -94,6 +95,7 @@ jobs:
           else
             echo "No new mlan/asterisk:mini image"
             echo "update_mlan_asterisk_mini_image=false" >> $GITHUB_ENV
+          fi
 
       - name: Calculate Dockerfile Digest
         id: calculate_dockerfile_digest
