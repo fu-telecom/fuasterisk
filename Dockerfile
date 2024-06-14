@@ -77,6 +77,8 @@ RUN cd /usr/src/asterisk && \
     make install && \
     make install-headers
 
+RUN echo "Creating DB directory"
+
 # Ensure /var/lib/asterisk exists and has the correct permissions
 
 # Ensure Asterisk database directory exists and has the correct permissions
