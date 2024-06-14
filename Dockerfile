@@ -81,15 +81,6 @@ RUN echo "Creating DB directory"
 
 # Ensure /var/lib/asterisk exists and has the correct permissions
 
-# Ensure Asterisk database directory exists and has the correct permissions
-RUN mkdir -p /var/lib/asterisk && \
-    touch /var/lib/asterisk/astdb.sqlite3 && \
-    chown -R asterisk:asterisk /var/lib/asterisk
-
-
-# Ensure Asterisk database file exists and has the correct permissions
-RUN touch /var/lib/asterisk/astdb.sqlite3 && \
-    chown asterisk:asterisk /var/lib/asterisk/astdb.sqlite3
 
 # Clone, build, and install chan_sccp
 RUN git clone https://github.com/chan-sccp/chan-sccp.git /usr/src/chan-sccp && \
@@ -105,6 +96,11 @@ COPY ./asterisk-scripts/ /asterisk_scripts/
 # Expose necessary ports
 EXPOSE 5060/tcp 5061/tcp 5060/udp 2000/tcp 5038/tcp
 EXPOSE 10000-20000/udp
+
+# Ensure Asterisk database directory exists and has the correct permissions
+RUN mkdir -p /var/lib/asterisk && \
+    touch /var/lib/asterisk/astdb.sqlite3 && \
+    chown -R asterisk:asterisk /var/lib/asterisk
 
 # Start Asterisk in the foreground
 CMD ["asterisk", "-f"]
