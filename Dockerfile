@@ -102,5 +102,5 @@ RUN mkdir -p /var/lib/asterisk && \
     touch /var/lib/asterisk/astdb.sqlite3 && \
     chown -R asterisk:asterisk /var/lib/asterisk
 
-# Start Asterisk in the foreground
+# Start Asterisk in the foreground - Right?
 CMD ["asterisk", "-f"]
