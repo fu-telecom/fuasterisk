@@ -121,6 +121,7 @@ jobs:
           else
             echo "Dockerfile has not changed"
             echo "dockerfile_changed=false" >> $GITHUB_ENV
+          fi
 
       - name: Build and push Docker image
         if: env.update_chan_sccp_release == 'true' || env.update_mlan_asterisk_mini_image == 'true' || env.dockerfile_changed == 'true'
