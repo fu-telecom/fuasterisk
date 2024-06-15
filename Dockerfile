@@ -100,8 +100,7 @@ EXPOSE 10000-20000/udp
 # Ensure Asterisk database directory exists and has the correct permissions
 RUN mkdir -p /var/lib/asterisk && \
     touch /var/lib/asterisk/astdb.sqlite3 && \
-    chown -R asterisk:asterisk /var/lib/asterisk \
-    chown -R asterisk:asterisk /etc/asterisk
+    chown -R asterisk:asterisk /var/lib/asterisk 
 
 USER asterisk
 # Start Asterisk in the foreground - Right?
