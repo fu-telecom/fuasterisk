@@ -104,4 +104,4 @@ RUN mkdir -p /var/lib/asterisk /var/run/asterisk && \
     chown -R asterisk:asterisk /var/lib/asterisk /var/run/asterisk
 
 # Start Asterisk in the foreground - Right?
-CMD ["asterisk", "-U", "root", "-G", "asterisk", "-f", "-c"]
+CMD ["asterisk", "-U", "root", "-G", "asterisk", "-f", "-c", "-vvv"]
