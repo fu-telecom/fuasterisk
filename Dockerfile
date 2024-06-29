@@ -94,7 +94,7 @@ RUN mkdir -p /asterisk_scripts
 COPY ./asterisk-scripts/ /asterisk_scripts/
 
 # Expose necessary ports
-EXPOSE 5060/tcp 5061/tcp 5060/udp 2000/tcp 5038/tc
+EXPOSE 5060/tcp 5061/tcp 5060/udp 2000/tcp 5038/tcp
 EXPOSE 10000-20000/udp
 
 # Ensure Asterisk database directory exists and has the correct permissions
