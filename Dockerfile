@@ -23,7 +23,8 @@ RUN apt-get update && apt-get install -y \
     lua5.3 \
     libedit-dev \
     libssl-dev \
-    wget
+    wget \
+    patch
 
 # Download and install MySQL ODBC connector with dependencies
 RUN wget https://dev.mysql.com/get/Downloads/Connector-ODBC/8.4/mysql-connector-odbc_8.4.0-1ubuntu24.04_amd64.deb && \
@@ -43,9 +44,16 @@ RUN curl -o /tmp/asterisk.tar.gz https://downloads.asterisk.org/pub/telephony/as
     mkdir -p /usr/src/asterisk && \
     tar -xzf /tmp/asterisk.tar.gz -C /usr/src/asterisk --strip-components=1
 
+# Download the patch
+RUN curl -o /tmp/cisco-usecallmanager-20.7.0.patch https://raw.githubusercontent.com/usecallmanagernz/patches/master/asterisk/cisco-usecallmanager-20.7.0.patch
+
+# Apply the patch
+RUN cd /usr/src/asterisk && \
+    patch --strip=1 < /tmp/cisco-usecallmanager-20.7.0.patch
+
 # Configure Asterisk
 RUN cd /usr/src/asterisk && \
-    ./configure
+    CFLAGS="-DENABLE_SRTP_AES_GCM -DENABLE_SRTP_AES_256" ./configure
 
 # Run menuselect
 RUN cd /usr/src/asterisk && \
@@ -75,12 +83,10 @@ RUN cd /usr/src/asterisk && \
 RUN cd /usr/src/asterisk && \
     make && \
     make install && \
+    make samples && \
     make install-headers
 
 RUN echo "Creating DB directory"
-
-# Ensure /var/lib/asterisk exists and has the correct permissions
-
 
 # Clone, build, and install chan_sccp
 RUN git clone https://github.com/chan-sccp/chan-sccp.git /usr/src/chan-sccp && \
@@ -103,5 +109,5 @@ RUN mkdir -p /var/lib/asterisk /var/run/asterisk && \
     touch /var/lib/asterisk/astdb.sqlite3 && \
     chown -R asterisk:asterisk /var/lib/asterisk /var/run/asterisk
 
-# Start Asterisk in the foreground - Right?
+# Start Asterisk in the foreground
 CMD ["asterisk", "-U", "root", "-G", "asterisk", "-f", "-c", "-vvv"]
