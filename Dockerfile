@@ -112,5 +112,5 @@ RUN mkdir -p /var/lib/asterisk /var/run/asterisk && \
 USER root
 
 # Start Asterisk in the foreground
-CMD ["asterisk", "-U", "root", "-G", "asterisk", "-f", "-c", "-vvv"]
+CMD ["asterisk", "-U", "root", "-G", "asterisk", "-f"]
 
