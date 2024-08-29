@@ -77,6 +77,7 @@ RUN cd /usr/src/asterisk && \
     menuselect/menuselect --enable app_festival menuselect.makeopts && \
     menuselect/menuselect --enable pbx_config menuselect.makeopts && \
     menuselect/menuselect --enable pbx_ael menuselect.makeopts && \
+    menuselect/menuselect --enable chan_sip menuselect.makeopts && \
     menuselect/menuselect --enable res_prometheus menuselect.makeopts
 
 # Build and install Asterisk
