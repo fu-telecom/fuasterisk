@@ -45,11 +45,11 @@ RUN curl -o /tmp/asterisk.tar.gz https://downloads.asterisk.org/pub/telephony/as
     tar -xzf /tmp/asterisk.tar.gz -C /usr/src/asterisk --strip-components=1
 
 # Download the patch
-RUN curl -o /tmp/cisco-usecallmanager-20.7.0.patch https://raw.githubusercontent.com/usecallmanagernz/patches/master/asterisk/cisco-usecallmanager-20.7.0.patch
+RUN curl -o /tmp/cisco-usecallmanager-20.9.0.patch https://raw.githubusercontent.com/usecallmanagernz/patches/master/asterisk/cisco-usecallmanager-20.9.0.patch
 
 # Apply the patch
 RUN cd /usr/src/asterisk && \
-    patch --strip=1 < /tmp/cisco-usecallmanager-20.7.0.patch
+    patch --strip=1 < /tmp/cisco-usecallmanager-20.9.0.patch
 
 # Configure Asterisk
 RUN cd /usr/src/asterisk && \
